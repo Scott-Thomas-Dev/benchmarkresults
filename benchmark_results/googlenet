@@ -1,0 +1,195 @@
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_1
+I1203 12:41:54.690029 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool0
+I1203 12:41:54.737723 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool0
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_2
+I1203 12:41:54.739291 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_3
+I1203 12:41:54.757189 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_3
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool1
+I1203 12:41:54.775055 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_4
+I1203 12:41:54.776528 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_4
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_5
+I1203 12:41:54.794482 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_5
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_6
+I1203 12:41:54.812770 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_6
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_7
+I1203 12:41:54.830946 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_7
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_8
+I1203 12:41:54.849683 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_8
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool2
+I1203 12:41:54.867811 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_9
+I1203 12:41:54.869209 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_9
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_10
+I1203 12:41:54.888801 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_10
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_11
+I1203 12:41:54.907008 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_11
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_12
+I1203 12:41:54.925122 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_12
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_13
+I1203 12:41:54.943329 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_13
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_14
+I1203 12:41:54.961682 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_14
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool3
+I1203 12:41:54.980174 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool3
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_15
+I1203 12:41:54.981573 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_15
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool4
+I1203 12:41:55.000808 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool4
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_16
+I1203 12:41:55.002307 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_16
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_17
+I1203 12:41:55.020523 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_17
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_18
+I1203 12:41:55.038680 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_18
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_19
+I1203 12:41:55.056953 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_19
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_20
+I1203 12:41:55.074995 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_20
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool5
+I1203 12:41:55.093082 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool5
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_21
+I1203 12:41:55.094481 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_21
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_22
+I1203 12:41:55.113948 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_22
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_23
+I1203 12:41:55.132603 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_23
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_24
+I1203 12:41:55.150698 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_24
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_25
+I1203 12:41:55.168823 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_25
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_26
+I1203 12:41:55.186968 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_26
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool6
+I1203 12:41:55.205086 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool6
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_27
+I1203 12:41:55.206490 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_27
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_28
+I1203 12:41:55.226220 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_28
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_29
+I1203 12:41:55.244769 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_29
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_30
+I1203 12:41:55.263076 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_30
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_31
+I1203 12:41:55.281710 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_31
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_32
+I1203 12:41:55.300003 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_32
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool7
+I1203 12:41:55.318115 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool7
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_33
+I1203 12:41:55.319533 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_33
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_34
+I1203 12:41:55.338990 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_34
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_35
+I1203 12:41:55.357207 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_35
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_36
+I1203 12:41:55.375420 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_36
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_37
+I1203 12:41:55.393607 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_37
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_38
+I1203 12:41:55.411868 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_38
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool8
+I1203 12:41:55.430393 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool8
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_39
+I1203 12:41:55.431856 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_39
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_40
+I1203 12:41:55.451321 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_40
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_41
+I1203 12:41:55.469672 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_41
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_42
+I1203 12:41:55.487879 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_42
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_43
+I1203 12:41:55.506225 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_43
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_44
+I1203 12:41:55.524373 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_44
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool9
+I1203 12:41:55.542507 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool9
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_45
+I1203 12:41:55.543915 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_45
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool10
+I1203 12:41:55.563738 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool10
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_46
+I1203 12:41:55.565249 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_46
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_47
+I1203 12:41:55.583522 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_47
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_48
+I1203 12:41:55.601788 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_48
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_49
+I1203 12:41:55.620051 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_49
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_50
+I1203 12:41:55.638386 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_50
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool11
+I1203 12:41:55.656452 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool11
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_51
+I1203 12:41:55.657862 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_51
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_52
+I1203 12:41:55.677495 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_52
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_53
+I1203 12:41:55.695780 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_53
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_54
+I1203 12:41:55.714455 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_54
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_55
+I1203 12:41:55.732750 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_55
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_56
+I1203 12:41:55.751010 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_56
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool12
+I1203 12:41:55.769251 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool12
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_57
+I1203 12:41:55.770666 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_57
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer apool0
+I1203 12:41:55.789997 140271454143808 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer apool0
+WARNING:tensorflow:From /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1799: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+W1203 12:41:59.116058 140271454143808 deprecation.py:305] From /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1799: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2018-12-03 12:42:00.933603: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: TITAN V major: 7 minor: 0 memoryClockRate(GHz): 1.455
+pciBusID: 0000:82:00.0
+totalMemory: 11.78GiB freeMemory: 11.37GiB
+2018-12-03 12:42:00.933667: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2018-12-03 12:42:01.251278: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-03 12:42:01.251332: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2018-12-03 12:42:01.251340: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2018-12-03 12:42:01.251587: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10973 MB memory) -> physical GPU (device: 0, name: TITAN V, pci bus id: 0000:82:00.0, compute capability: 7.0)
+INFO:tensorflow:Running local_init_op.
+I1203 12:42:03.110730 140271454143808 session_manager.py:498] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I1203 12:42:03.346964 140271454143808 session_manager.py:500] Done running local_init_op.
+TensorFlow:  1.12
+Model:       googlenet
+Dataset:     imagenet (synthetic)
+Mode:        training
+SingleSess:  False
+Batch size:  5 global
+             5.0 per device
+Num batches: 100
+Num epochs:  0.00
+Devices:     ['/cpu:0']
+Data format: NHWC
+Layout optimizer: False
+Optimizer:   rmsprop
+Variables:   parameter_server
+==========
+Generating model
+Saving graph to: tensorboard_out/alexnet/alex
+Running warm up
+Done warm up
+Step	Img/sec	total_loss
+1	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	7.637
+10	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	7.287
+20	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	7.125
+30	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	6.875
+40	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	7.062
+50	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	7.020
+60	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	6.980
+70	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	6.588
+80	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	6.557
+90	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	6.588
+100	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	6.730
+----------------------------------------------------------------
+total images/sec: 0.14
+----------------------------------------------------------------

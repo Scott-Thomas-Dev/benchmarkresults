@@ -1,0 +1,67 @@
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_1
+I1204 21:44:37.509501 139879216796992 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool0
+I1204 21:44:37.557180 139879216796992 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool0
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_2
+I1204 21:44:37.559516 139879216796992 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool1
+I1204 21:44:37.577251 139879216796992 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool1
+WARNING:tensorflow:From /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1799: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+W1204 21:44:37.990286 139879216796992 deprecation.py:305] From /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1799: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2018-12-04 21:44:39.369710: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: TITAN V major: 7 minor: 0 memoryClockRate(GHz): 1.455
+pciBusID: 0000:82:00.0
+totalMemory: 11.78GiB freeMemory: 11.37GiB
+2018-12-04 21:44:39.369778: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2018-12-04 21:44:39.677209: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-04 21:44:39.677273: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2018-12-04 21:44:39.677280: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2018-12-04 21:44:39.677542: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10973 MB memory) -> physical GPU (device: 0, name: TITAN V, pci bus id: 0000:82:00.0, compute capability: 7.0)
+INFO:tensorflow:Running local_init_op.
+I1204 21:44:39.926809 139879216796992 session_manager.py:498] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I1204 21:44:40.097488 139879216796992 session_manager.py:500] Done running local_init_op.
+INFO:tensorflow:Starting standard services.
+I1204 21:44:40.121402 139879216796992 supervisor.py:733] Starting standard services.
+WARNING:tensorflow:Standard services need a 'logdir' passed to the SessionManager
+W1204 21:44:40.121495 139879216796992 supervisor.py:668] Standard services need a 'logdir' passed to the SessionManager
+INFO:tensorflow:Starting queue runners.
+I1204 21:44:40.121556 139879216796992 supervisor.py:740] Starting queue runners.
+TensorFlow:  1.12
+Model:       alexnet
+Dataset:     cifar10 (synthetic)
+Mode:        training
+SingleSess:  False
+Batch size:  5 global
+             5.0 per device
+Num batches: 100
+Num epochs:  0.01
+Devices:     ['/cpu:0']
+Data format: NHWC
+Layout optimizer: False
+Optimizer:   rmsprop
+Variables:   parameter_server
+==========
+Generating model
+Saving graph to: tensorboard_out/alexnet/alex
+Running warm up
+Done warm up
+Step	Img/sec	total_loss
+1	images/sec: 2.6 +/- 0.0 (jitter = 0.0)	5.000
+10	images/sec: 2.5 +/- 0.1 (jitter = 0.3)	7.438
+20	images/sec: 2.5 +/- 0.0 (jitter = 0.1)	8.621
+30	images/sec: 2.6 +/- 0.0 (jitter = 0.1)	10.297
+40	images/sec: 2.6 +/- 0.0 (jitter = 0.0)	10.305
+50	images/sec: 2.6 +/- 0.0 (jitter = 0.0)	10.961
+60	images/sec: 2.6 +/- 0.0 (jitter = 0.0)	10.797
+70	images/sec: 2.6 +/- 0.0 (jitter = 0.0)	10.859
+80	images/sec: 2.7 +/- 0.0 (jitter = 0.1)	10.805
+90	images/sec: 2.7 +/- 0.0 (jitter = 0.1)	11.094
+100	images/sec: 2.7 +/- 0.0 (jitter = 0.1)	10.953
+----------------------------------------------------------------
+total images/sec: 2.75
+----------------------------------------------------------------

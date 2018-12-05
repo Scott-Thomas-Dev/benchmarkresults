@@ -1,0 +1,257 @@
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_1
+I1202 14:36:23.779194 140516654351680 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool0
+I1202 14:36:23.827677 140516654351680 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool0
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_2
+I1202 14:36:23.829317 140516654351680 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool1
+I1202 14:36:23.847619 140516654351680 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_3
+I1202 14:36:23.849008 140516654351680 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_3
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_4
+I1202 14:36:23.867001 140516654351680 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_4
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_5
+I1202 14:36:23.885032 140516654351680 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_5
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool2
+I1202 14:36:23.903086 140516654351680 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer dropout_1
+I1202 14:36:23.920879 140516654351680 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer dropout_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer dropout_2
+I1202 14:36:23.944428 140516654351680 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer dropout_2
+WARNING:tensorflow:From /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1799: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+W1202 14:36:24.514966 140516654351680 deprecation.py:305] From /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1799: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2018-12-02 14:36:25.954242: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: TITAN V major: 7 minor: 0 memoryClockRate(GHz): 1.455
+pciBusID: 0000:82:00.0
+totalMemory: 11.78GiB freeMemory: 11.37GiB
+2018-12-02 14:36:25.954306: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2018-12-02 14:36:26.267766: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-02 14:36:26.267821: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2018-12-02 14:36:26.267828: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2018-12-02 14:36:26.268086: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10973 MB memory) -> physical GPU (device: 0, name: TITAN V, pci bus id: 0000:82:00.0, compute capability: 7.0)
+INFO:tensorflow:Running local_init_op.
+I1202 14:36:48.011160 140516654351680 session_manager.py:498] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I1202 14:36:48.224798 140516654351680 session_manager.py:500] Done running local_init_op.
+2018-12-03 04:11:06.747936: W tensorflow/core/framework/op_kernel.cc:1273] OP_REQUIRES failed at save_restore_v2_ops.cc:134 : Resource exhausted: tensorboard_out/overfeat/model.ckpt-110.data-00000-of-00001.tempstate16772333965137069244; No space left on device
+INFO:tensorflow:Error reported to Coordinator: <class 'tensorflow.python.framework.errors_impl.ResourceExhaustedError'>, tensorboard_out/overfeat/model.ckpt-110.data-00000-of-00001.tempstate16772333965137069244; No space left on device
+	 [[node save/SaveV2 (defined at /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1756)  = SaveV2[dtypes=[DT_INT64, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, ..., DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/SaveV2/tensor_names, save/SaveV2/shape_and_slices, global_step, v/cg/affine0/biases, v/cg/affine0/biases/RMSProp, v/cg/affine0/biases/RMSProp_1, v/cg/affine0/weights, v/cg/affine0/weights/RMSProp, v/cg/affine0/weights/RMSProp_1, v/cg/affine1/biases, v/cg/affine1/biases/RMSProp, v/cg/affine1/biases/RMSProp_1, v/cg/affine1/weights, v/cg/affine1/weights/RMSProp, v/cg/affine1/weights/RMSProp_1, v/cg/affine2/biases, v/cg/affine2/biases/RMSProp, v/cg/affine2/biases/RMSProp_1, v/cg/affine2/weights, v/cg/affine2/weights/RMSProp, v/cg/affine2/weights/RMSProp_1, v/cg/conv0/biases, v/cg/conv0/biases/RMSProp, v/cg/conv0/biases/RMSProp_1, v/cg/conv0/conv2d/kernel, v/cg/conv0/conv2d/kernel/RMSProp, v/cg/conv0/conv2d/kernel/RMSProp_1, v/cg/conv1/biases, v/cg/conv1/biases/RMSProp, v/cg/conv1/biases/RMSProp_1, v/cg/conv1/conv2d/kernel, v/cg/conv1/conv2d/kernel/RMSProp, v/cg/conv1/conv2d/kernel/RMSProp_1, v/cg/conv2/biases, v/cg/conv2/biases/RMSProp, v/cg/conv2/biases/RMSProp_1, v/cg/conv2/conv2d/kernel, v/cg/conv2/conv2d/kernel/RMSProp, v/cg/conv2/conv2d/kernel/RMSProp_1, v/cg/conv3/biases, v/cg/conv3/biases/RMSProp, v/cg/conv3/biases/RMSProp_1, v/cg/conv3/conv2d/kernel, v/cg/conv3/conv2d/kernel/RMSProp, v/cg/conv3/conv2d/kernel/RMSProp_1, v/cg/conv4/biases, v/cg/conv4/biases/RMSProp, v/cg/conv4/biases/RMSProp_1, v/cg/conv4/conv2d/kernel, v/cg/conv4/conv2d/kernel/RMSProp, v/cg/conv4/conv2d/kernel/RMSProp_1)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+Caused by op 'save/SaveV2', defined at:
+  File "tf_cnn_benchmarks.py", line 59, in <module>
+    app.run(main)  # Raises error on invalid flags, unlike tf.app.run()
+  File "/usr/local/lib/python3.6/site-packages/absl/app.py", line 274, in run
+    _run_main(main, argv)
+  File "/usr/local/lib/python3.6/site-packages/absl/app.py", line 238, in _run_main
+    sys.exit(main(argv))
+  File "tf_cnn_benchmarks.py", line 56, in main
+    bench.run()
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py", line 1500, in run
+    return self._benchmark_train()
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py", line 1624, in _benchmark_train
+    return self._benchmark_graph(result_to_benchmark)
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py", line 1756, in _benchmark_graph
+    self.variable_mgr.savable_variables(), save_relative_paths=True)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 792, in _build_internal
+    save_tensor = self._AddSaveOps(filename_tensor, saveables)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 284, in _AddSaveOps
+    save = self.save_op(filename_tensor, saveables)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 202, in save_op
+    tensors)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/ops/gen_io_ops.py", line 1690, in save_v2
+    shape_and_slices=shape_and_slices, tensors=tensors, name=name)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 788, in _apply_op_helper
+    op_def=op_def)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+ResourceExhaustedError (see above for traceback): tensorboard_out/overfeat/model.ckpt-110.data-00000-of-00001.tempstate16772333965137069244; No space left on device
+	 [[node save/SaveV2 (defined at /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1756)  = SaveV2[dtypes=[DT_INT64, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, ..., DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/SaveV2/tensor_names, save/SaveV2/shape_and_slices, global_step, v/cg/affine0/biases, v/cg/affine0/biases/RMSProp, v/cg/affine0/biases/RMSProp_1, v/cg/affine0/weights, v/cg/affine0/weights/RMSProp, v/cg/affine0/weights/RMSProp_1, v/cg/affine1/biases, v/cg/affine1/biases/RMSProp, v/cg/affine1/biases/RMSProp_1, v/cg/affine1/weights, v/cg/affine1/weights/RMSProp, v/cg/affine1/weights/RMSProp_1, v/cg/affine2/biases, v/cg/affine2/biases/RMSProp, v/cg/affine2/biases/RMSProp_1, v/cg/affine2/weights, v/cg/affine2/weights/RMSProp, v/cg/affine2/weights/RMSProp_1, v/cg/conv0/biases, v/cg/conv0/biases/RMSProp, v/cg/conv0/biases/RMSProp_1, v/cg/conv0/conv2d/kernel, v/cg/conv0/conv2d/kernel/RMSProp, v/cg/conv0/conv2d/kernel/RMSProp_1, v/cg/conv1/biases, v/cg/conv1/biases/RMSProp, v/cg/conv1/biases/RMSProp_1, v/cg/conv1/conv2d/kernel, v/cg/conv1/conv2d/kernel/RMSProp, v/cg/conv1/conv2d/kernel/RMSProp_1, v/cg/conv2/biases, v/cg/conv2/biases/RMSProp, v/cg/conv2/biases/RMSProp_1, v/cg/conv2/conv2d/kernel, v/cg/conv2/conv2d/kernel/RMSProp, v/cg/conv2/conv2d/kernel/RMSProp_1, v/cg/conv3/biases, v/cg/conv3/biases/RMSProp, v/cg/conv3/biases/RMSProp_1, v/cg/conv3/conv2d/kernel, v/cg/conv3/conv2d/kernel/RMSProp, v/cg/conv3/conv2d/kernel/RMSProp_1, v/cg/conv4/biases, v/cg/conv4/biases/RMSProp, v/cg/conv4/biases/RMSProp_1, v/cg/conv4/conv2d/kernel, v/cg/conv4/conv2d/kernel/RMSProp, v/cg/conv4/conv2d/kernel/RMSProp_1)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+I1203 04:11:06.753587 140516654351680 coordinator.py:224] Error reported to Coordinator: <class 'tensorflow.python.framework.errors_impl.ResourceExhaustedError'>, tensorboard_out/overfeat/model.ckpt-110.data-00000-of-00001.tempstate16772333965137069244; No space left on device
+	 [[node save/SaveV2 (defined at /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1756)  = SaveV2[dtypes=[DT_INT64, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, ..., DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/SaveV2/tensor_names, save/SaveV2/shape_and_slices, global_step, v/cg/affine0/biases, v/cg/affine0/biases/RMSProp, v/cg/affine0/biases/RMSProp_1, v/cg/affine0/weights, v/cg/affine0/weights/RMSProp, v/cg/affine0/weights/RMSProp_1, v/cg/affine1/biases, v/cg/affine1/biases/RMSProp, v/cg/affine1/biases/RMSProp_1, v/cg/affine1/weights, v/cg/affine1/weights/RMSProp, v/cg/affine1/weights/RMSProp_1, v/cg/affine2/biases, v/cg/affine2/biases/RMSProp, v/cg/affine2/biases/RMSProp_1, v/cg/affine2/weights, v/cg/affine2/weights/RMSProp, v/cg/affine2/weights/RMSProp_1, v/cg/conv0/biases, v/cg/conv0/biases/RMSProp, v/cg/conv0/biases/RMSProp_1, v/cg/conv0/conv2d/kernel, v/cg/conv0/conv2d/kernel/RMSProp, v/cg/conv0/conv2d/kernel/RMSProp_1, v/cg/conv1/biases, v/cg/conv1/biases/RMSProp, v/cg/conv1/biases/RMSProp_1, v/cg/conv1/conv2d/kernel, v/cg/conv1/conv2d/kernel/RMSProp, v/cg/conv1/conv2d/kernel/RMSProp_1, v/cg/conv2/biases, v/cg/conv2/biases/RMSProp, v/cg/conv2/biases/RMSProp_1, v/cg/conv2/conv2d/kernel, v/cg/conv2/conv2d/kernel/RMSProp, v/cg/conv2/conv2d/kernel/RMSProp_1, v/cg/conv3/biases, v/cg/conv3/biases/RMSProp, v/cg/conv3/biases/RMSProp_1, v/cg/conv3/conv2d/kernel, v/cg/conv3/conv2d/kernel/RMSProp, v/cg/conv3/conv2d/kernel/RMSProp_1, v/cg/conv4/biases, v/cg/conv4/biases/RMSProp, v/cg/conv4/biases/RMSProp_1, v/cg/conv4/conv2d/kernel, v/cg/conv4/conv2d/kernel/RMSProp, v/cg/conv4/conv2d/kernel/RMSProp_1)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+Caused by op 'save/SaveV2', defined at:
+  File "tf_cnn_benchmarks.py", line 59, in <module>
+    app.run(main)  # Raises error on invalid flags, unlike tf.app.run()
+  File "/usr/local/lib/python3.6/site-packages/absl/app.py", line 274, in run
+    _run_main(main, argv)
+  File "/usr/local/lib/python3.6/site-packages/absl/app.py", line 238, in _run_main
+    sys.exit(main(argv))
+  File "tf_cnn_benchmarks.py", line 56, in main
+    bench.run()
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py", line 1500, in run
+    return self._benchmark_train()
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py", line 1624, in _benchmark_train
+    return self._benchmark_graph(result_to_benchmark)
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py", line 1756, in _benchmark_graph
+    self.variable_mgr.savable_variables(), save_relative_paths=True)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 792, in _build_internal
+    save_tensor = self._AddSaveOps(filename_tensor, saveables)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 284, in _AddSaveOps
+    save = self.save_op(filename_tensor, saveables)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 202, in save_op
+    tensors)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/ops/gen_io_ops.py", line 1690, in save_v2
+    shape_and_slices=shape_and_slices, tensors=tensors, name=name)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 788, in _apply_op_helper
+    op_def=op_def)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+ResourceExhaustedError (see above for traceback): tensorboard_out/overfeat/model.ckpt-110.data-00000-of-00001.tempstate16772333965137069244; No space left on device
+	 [[node save/SaveV2 (defined at /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1756)  = SaveV2[dtypes=[DT_INT64, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, ..., DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/SaveV2/tensor_names, save/SaveV2/shape_and_slices, global_step, v/cg/affine0/biases, v/cg/affine0/biases/RMSProp, v/cg/affine0/biases/RMSProp_1, v/cg/affine0/weights, v/cg/affine0/weights/RMSProp, v/cg/affine0/weights/RMSProp_1, v/cg/affine1/biases, v/cg/affine1/biases/RMSProp, v/cg/affine1/biases/RMSProp_1, v/cg/affine1/weights, v/cg/affine1/weights/RMSProp, v/cg/affine1/weights/RMSProp_1, v/cg/affine2/biases, v/cg/affine2/biases/RMSProp, v/cg/affine2/biases/RMSProp_1, v/cg/affine2/weights, v/cg/affine2/weights/RMSProp, v/cg/affine2/weights/RMSProp_1, v/cg/conv0/biases, v/cg/conv0/biases/RMSProp, v/cg/conv0/biases/RMSProp_1, v/cg/conv0/conv2d/kernel, v/cg/conv0/conv2d/kernel/RMSProp, v/cg/conv0/conv2d/kernel/RMSProp_1, v/cg/conv1/biases, v/cg/conv1/biases/RMSProp, v/cg/conv1/biases/RMSProp_1, v/cg/conv1/conv2d/kernel, v/cg/conv1/conv2d/kernel/RMSProp, v/cg/conv1/conv2d/kernel/RMSProp_1, v/cg/conv2/biases, v/cg/conv2/biases/RMSProp, v/cg/conv2/biases/RMSProp_1, v/cg/conv2/conv2d/kernel, v/cg/conv2/conv2d/kernel/RMSProp, v/cg/conv2/conv2d/kernel/RMSProp_1, v/cg/conv3/biases, v/cg/conv3/biases/RMSProp, v/cg/conv3/biases/RMSProp_1, v/cg/conv3/conv2d/kernel, v/cg/conv3/conv2d/kernel/RMSProp, v/cg/conv3/conv2d/kernel/RMSProp_1, v/cg/conv4/biases, v/cg/conv4/biases/RMSProp, v/cg/conv4/biases/RMSProp_1, v/cg/conv4/conv2d/kernel, v/cg/conv4/conv2d/kernel/RMSProp, v/cg/conv4/conv2d/kernel/RMSProp_1)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+TensorFlow:  1.12
+Model:       overfeat
+Dataset:     imagenet (synthetic)
+Mode:        training
+SingleSess:  False
+Batch size:  5 global
+             5.0 per device
+Num batches: 100
+Num epochs:  0.00
+Devices:     ['/cpu:0']
+Data format: NHWC
+Layout optimizer: False
+Optimizer:   rmsprop
+Variables:   parameter_server
+==========
+Generating model
+Saving graph to: tensorboard_out/alexnet/alex
+Running warm up
+Done warm up
+Step	Img/sec	total_loss
+1	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	67108864.000
+10	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	67108864.000
+20	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	67108864.000
+30	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2688.000
+40	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	67108864.000
+50	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	67108864.000
+60	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	67108864.000
+70	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	67108864.000
+80	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	67108864.000
+90	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2688.000
+100	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	67108864.000
+----------------------------------------------------------------
+total images/sec: 0.01
+----------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1334, in _do_call
+    return fn(*args)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1319, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1407, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: tensorboard_out/overfeat/model.ckpt-110.data-00000-of-00001.tempstate16772333965137069244; No space left on device
+	 [[{{node save/SaveV2}} = SaveV2[dtypes=[DT_INT64, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, ..., DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/SaveV2/tensor_names, save/SaveV2/shape_and_slices, global_step, v/cg/affine0/biases, v/cg/affine0/biases/RMSProp, v/cg/affine0/biases/RMSProp_1, v/cg/affine0/weights, v/cg/affine0/weights/RMSProp, v/cg/affine0/weights/RMSProp_1, v/cg/affine1/biases, v/cg/affine1/biases/RMSProp, v/cg/affine1/biases/RMSProp_1, v/cg/affine1/weights, v/cg/affine1/weights/RMSProp, v/cg/affine1/weights/RMSProp_1, v/cg/affine2/biases, v/cg/affine2/biases/RMSProp, v/cg/affine2/biases/RMSProp_1, v/cg/affine2/weights, v/cg/affine2/weights/RMSProp, v/cg/affine2/weights/RMSProp_1, v/cg/conv0/biases, v/cg/conv0/biases/RMSProp, v/cg/conv0/biases/RMSProp_1, v/cg/conv0/conv2d/kernel, v/cg/conv0/conv2d/kernel/RMSProp, v/cg/conv0/conv2d/kernel/RMSProp_1, v/cg/conv1/biases, v/cg/conv1/biases/RMSProp, v/cg/conv1/biases/RMSProp_1, v/cg/conv1/conv2d/kernel, v/cg/conv1/conv2d/kernel/RMSProp, v/cg/conv1/conv2d/kernel/RMSProp_1, v/cg/conv2/biases, v/cg/conv2/biases/RMSProp, v/cg/conv2/biases/RMSProp_1, v/cg/conv2/conv2d/kernel, v/cg/conv2/conv2d/kernel/RMSProp, v/cg/conv2/conv2d/kernel/RMSProp_1, v/cg/conv3/biases, v/cg/conv3/biases/RMSProp, v/cg/conv3/biases/RMSProp_1, v/cg/conv3/conv2d/kernel, v/cg/conv3/conv2d/kernel/RMSProp, v/cg/conv3/conv2d/kernel/RMSProp_1, v/cg/conv4/biases, v/cg/conv4/biases/RMSProp, v/cg/conv4/biases/RMSProp_1, v/cg/conv4/conv2d/kernel, v/cg/conv4/conv2d/kernel/RMSProp, v/cg/conv4/conv2d/kernel/RMSProp_1)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "tf_cnn_benchmarks.py", line 59, in <module>
+    app.run(main)  # Raises error on invalid flags, unlike tf.app.run()
+  File "/usr/local/lib/python3.6/site-packages/absl/app.py", line 274, in run
+    _run_main(main, argv)
+  File "/usr/local/lib/python3.6/site-packages/absl/app.py", line 238, in _run_main
+    sys.exit(main(argv))
+  File "tf_cnn_benchmarks.py", line 56, in main
+    bench.run()
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py", line 1500, in run
+    return self._benchmark_train()
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py", line 1624, in _benchmark_train
+    return self._benchmark_graph(result_to_benchmark)
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py", line 1940, in _benchmark_graph
+    sv.saver.save(sess, checkpoint_path, graph_info.global_step)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1441, in save
+    {self.saver_def.filename_tensor_name: checkpoint_file})
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1152, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
+    run_metadata)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: tensorboard_out/overfeat/model.ckpt-110.data-00000-of-00001.tempstate16772333965137069244; No space left on device
+	 [[node save/SaveV2 (defined at /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1756)  = SaveV2[dtypes=[DT_INT64, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, ..., DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/SaveV2/tensor_names, save/SaveV2/shape_and_slices, global_step, v/cg/affine0/biases, v/cg/affine0/biases/RMSProp, v/cg/affine0/biases/RMSProp_1, v/cg/affine0/weights, v/cg/affine0/weights/RMSProp, v/cg/affine0/weights/RMSProp_1, v/cg/affine1/biases, v/cg/affine1/biases/RMSProp, v/cg/affine1/biases/RMSProp_1, v/cg/affine1/weights, v/cg/affine1/weights/RMSProp, v/cg/affine1/weights/RMSProp_1, v/cg/affine2/biases, v/cg/affine2/biases/RMSProp, v/cg/affine2/biases/RMSProp_1, v/cg/affine2/weights, v/cg/affine2/weights/RMSProp, v/cg/affine2/weights/RMSProp_1, v/cg/conv0/biases, v/cg/conv0/biases/RMSProp, v/cg/conv0/biases/RMSProp_1, v/cg/conv0/conv2d/kernel, v/cg/conv0/conv2d/kernel/RMSProp, v/cg/conv0/conv2d/kernel/RMSProp_1, v/cg/conv1/biases, v/cg/conv1/biases/RMSProp, v/cg/conv1/biases/RMSProp_1, v/cg/conv1/conv2d/kernel, v/cg/conv1/conv2d/kernel/RMSProp, v/cg/conv1/conv2d/kernel/RMSProp_1, v/cg/conv2/biases, v/cg/conv2/biases/RMSProp, v/cg/conv2/biases/RMSProp_1, v/cg/conv2/conv2d/kernel, v/cg/conv2/conv2d/kernel/RMSProp, v/cg/conv2/conv2d/kernel/RMSProp_1, v/cg/conv3/biases, v/cg/conv3/biases/RMSProp, v/cg/conv3/biases/RMSProp_1, v/cg/conv3/conv2d/kernel, v/cg/conv3/conv2d/kernel/RMSProp, v/cg/conv3/conv2d/kernel/RMSProp_1, v/cg/conv4/biases, v/cg/conv4/biases/RMSProp, v/cg/conv4/biases/RMSProp_1, v/cg/conv4/conv2d/kernel, v/cg/conv4/conv2d/kernel/RMSProp, v/cg/conv4/conv2d/kernel/RMSProp_1)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+Caused by op 'save/SaveV2', defined at:
+  File "tf_cnn_benchmarks.py", line 59, in <module>
+    app.run(main)  # Raises error on invalid flags, unlike tf.app.run()
+  File "/usr/local/lib/python3.6/site-packages/absl/app.py", line 274, in run
+    _run_main(main, argv)
+  File "/usr/local/lib/python3.6/site-packages/absl/app.py", line 238, in _run_main
+    sys.exit(main(argv))
+  File "tf_cnn_benchmarks.py", line 56, in main
+    bench.run()
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py", line 1500, in run
+    return self._benchmark_train()
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py", line 1624, in _benchmark_train
+    return self._benchmark_graph(result_to_benchmark)
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py", line 1756, in _benchmark_graph
+    self.variable_mgr.savable_variables(), save_relative_paths=True)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 792, in _build_internal
+    save_tensor = self._AddSaveOps(filename_tensor, saveables)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 284, in _AddSaveOps
+    save = self.save_op(filename_tensor, saveables)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 202, in save_op
+    tensors)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/ops/gen_io_ops.py", line 1690, in save_v2
+    shape_and_slices=shape_and_slices, tensors=tensors, name=name)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 788, in _apply_op_helper
+    op_def=op_def)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+ResourceExhaustedError (see above for traceback): tensorboard_out/overfeat/model.ckpt-110.data-00000-of-00001.tempstate16772333965137069244; No space left on device
+	 [[node save/SaveV2 (defined at /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1756)  = SaveV2[dtypes=[DT_INT64, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, ..., DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1, DT_POSIT_16_1], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/SaveV2/tensor_names, save/SaveV2/shape_and_slices, global_step, v/cg/affine0/biases, v/cg/affine0/biases/RMSProp, v/cg/affine0/biases/RMSProp_1, v/cg/affine0/weights, v/cg/affine0/weights/RMSProp, v/cg/affine0/weights/RMSProp_1, v/cg/affine1/biases, v/cg/affine1/biases/RMSProp, v/cg/affine1/biases/RMSProp_1, v/cg/affine1/weights, v/cg/affine1/weights/RMSProp, v/cg/affine1/weights/RMSProp_1, v/cg/affine2/biases, v/cg/affine2/biases/RMSProp, v/cg/affine2/biases/RMSProp_1, v/cg/affine2/weights, v/cg/affine2/weights/RMSProp, v/cg/affine2/weights/RMSProp_1, v/cg/conv0/biases, v/cg/conv0/biases/RMSProp, v/cg/conv0/biases/RMSProp_1, v/cg/conv0/conv2d/kernel, v/cg/conv0/conv2d/kernel/RMSProp, v/cg/conv0/conv2d/kernel/RMSProp_1, v/cg/conv1/biases, v/cg/conv1/biases/RMSProp, v/cg/conv1/biases/RMSProp_1, v/cg/conv1/conv2d/kernel, v/cg/conv1/conv2d/kernel/RMSProp, v/cg/conv1/conv2d/kernel/RMSProp_1, v/cg/conv2/biases, v/cg/conv2/biases/RMSProp, v/cg/conv2/biases/RMSProp_1, v/cg/conv2/conv2d/kernel, v/cg/conv2/conv2d/kernel/RMSProp, v/cg/conv2/conv2d/kernel/RMSProp_1, v/cg/conv3/biases, v/cg/conv3/biases/RMSProp, v/cg/conv3/biases/RMSProp_1, v/cg/conv3/conv2d/kernel, v/cg/conv3/conv2d/kernel/RMSProp, v/cg/conv3/conv2d/kernel/RMSProp_1, v/cg/conv4/biases, v/cg/conv4/biases/RMSProp, v/cg/conv4/biases/RMSProp_1, v/cg/conv4/conv2d/kernel, v/cg/conv4/conv2d/kernel/RMSProp, v/cg/conv4/conv2d/kernel/RMSProp_1)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+

@@ -1,0 +1,129 @@
+INFO:tensorflow:input_image_shape: (5, 32, 32, 3)
+I1204 21:51:36.517292 140374808659264 nasnet_model.py:572] input_image_shape: (5, 32, 32, 3)
+2018-12-04 21:51:37.869709: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: TITAN V major: 7 minor: 0 memoryClockRate(GHz): 1.455
+pciBusID: 0000:82:00.0
+totalMemory: 11.78GiB freeMemory: 11.37GiB
+2018-12-04 21:51:37.869771: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2018-12-04 21:51:38.178161: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-04 21:51:38.178222: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2018-12-04 21:51:38.178231: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2018-12-04 21:51:38.178479: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/device:GPU:0 with 10973 MB memory) -> physical GPU (device: 0, name: TITAN V, pci bus id: 0000:82:00.0, compute capability: 7.0)
+INFO:tensorflow:A GPU is available on the machine, consider using NCHW data format for increased speed on GPU.
+I1204 21:51:38.179934 140374808659264 nasnet_model.py:296] A GPU is available on the machine, consider using NCHW data format for increased speed on GPU.
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/l1_stem_3x3
+I1204 21:51:38.181512 140374808659264 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/l1_stem_3x3
+TensorFlow:  1.12
+Model:       nasnet
+Dataset:     cifar10 (synthetic)
+Mode:        training
+SingleSess:  False
+Batch size:  5 global
+             5.0 per device
+Num batches: 100
+Num epochs:  0.01
+Devices:     ['/cpu:0']
+Data format: NHWC
+Layout optimizer: False
+Optimizer:   rmsprop
+Variables:   parameter_server
+==========
+Generating model
+Traceback (most recent call last):
+  File "tf_cnn_benchmarks.py", line 59, in <module>
+    app.run(main)  # Raises error on invalid flags, unlike tf.app.run()
+  File "/usr/local/lib/python3.6/site-packages/absl/app.py", line 274, in run
+    _run_main(main, argv)
+  File "/usr/local/lib/python3.6/site-packages/absl/app.py", line 238, in _run_main
+    sys.exit(main(argv))
+  File "tf_cnn_benchmarks.py", line 56, in main
+    bench.run()
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py", line 1500, in run
+    return self._benchmark_train()
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py", line 1617, in _benchmark_train
+    build_result = self._build_graph()
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py", line 1657, in _build_graph
+    (input_producer_op, enqueue_ops, fetches) = self._build_model()
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py", line 2132, in _build_model
+    gpu_grad_stage_ops)
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py", line 2628, in add_forward_pass_and_gradients
+    self.data_format, self.params.use_tf_layers, self.params.fp16_vars)
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/models/model.py", line 109, in build_network
+    self.add_inference(network)
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/models/nasnet_model.py", line 576, in add_inference
+    data_format=cnn.data_format)
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/models/nasnet_model.py", line 327, in build_nasnet_cifar
+    stem_type='cifar')
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/models/nasnet_model.py", line 462, in _build_nasnet_base
+    net, cell_outputs = stem()
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/models/nasnet_model.py", line 459, in <lambda>
+    stem = lambda: _cifar_stem(images, hparams)
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/models/nasnet_model.py", line 281, in _cifar_stem
+    net = slim.conv2d(inputs, num_stem_filters, 3, scope='l1_stem_3x3')
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py", line 182, in func_with_args
+    return func(*args, **current_args)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/contrib/layers/python/layers/layers.py", line 1154, in convolution2d
+    conv_dims=2)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py", line 182, in func_with_args
+    return func(*args, **current_args)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/contrib/layers/python/layers/layers.py", line 1057, in convolution
+    outputs = layer.apply(inputs)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/keras/engine/base_layer.py", line 831, in apply
+    return self.__call__(inputs, *args, **kwargs)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/layers/base.py", line 374, in __call__
+    outputs = super(Layer, self).__call__(inputs, *args, **kwargs)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/keras/engine/base_layer.py", line 760, in __call__
+    self.build(input_shapes)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/keras/layers/convolutional.py", line 176, in build
+    dtype=self._dtype)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/layers/base.py", line 288, in add_weight
+    getter=vs.get_variable)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/keras/engine/base_layer.py", line 615, in add_weight
+    aggregation=aggregation)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/training/checkpointable/base.py", line 639, in _add_variable_with_custom_getter
+    **kwargs_for_getter)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 1487, in get_variable
+    aggregation=aggregation)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 1237, in get_variable
+    aggregation=aggregation)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 523, in get_variable
+    return custom_getter(**custom_getter_kwargs)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 1925, in wrapped_custom_getter
+    *args, **kwargs)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/contrib/layers/python/layers/layers.py", line 1749, in layer_variable_getter
+    return _model_variable_getter(getter, *args, **kwargs)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/contrib/layers/python/layers/layers.py", line 1740, in _model_variable_getter
+    aggregation=aggregation)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py", line 182, in func_with_args
+    return func(*args, **current_args)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/contrib/framework/python/ops/variables.py", line 350, in model_variable
+    aggregation=aggregation)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py", line 182, in func_with_args
+    return func(*args, **current_args)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/contrib/framework/python/ops/variables.py", line 277, in variable
+    aggregation=aggregation)
+  File "/home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/convnet_builder.py", line 87, in inner_custom_getter
+    var = getter(*args, **kwargs)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 492, in _true_getter
+    aggregation=aggregation)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 922, in _get_single_variable
+    aggregation=aggregation)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/ops/variables.py", line 183, in __call__
+    return cls._variable_v1_call(*args, **kwargs)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/ops/variables.py", line 146, in _variable_v1_call
+    aggregation=aggregation)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/ops/variables.py", line 125, in <lambda>
+    previous_getter = lambda **kwargs: default_variable_creator(None, **kwargs)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 2444, in default_variable_creator
+    expected_shape=expected_shape, import_scope=import_scope)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/ops/variables.py", line 187, in __call__
+    return super(VariableMetaclass, cls).__call__(*args, **kwargs)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/ops/variables.py", line 1329, in __init__
+    constraint=constraint)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/ops/variables.py", line 1437, in _init_from_args
+    initial_value(), name="initial_value", dtype=dtype)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/python/ops/variable_scope.py", line 896, in <lambda>
+    shape.as_list(), dtype=dtype, partition_info=partition_info)
+  File "/home/scott/.local/lib/python3.6/site-packages/tensorflow/contrib/layers/python/layers/initializers.py", line 120, in _initializer
+    raise TypeError('Cannot create initializer for non-floating point type.')
+TypeError: Cannot create initializer for non-floating point type.
