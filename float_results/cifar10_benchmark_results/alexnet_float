@@ -1,0 +1,62 @@
+INFO:tensorflow:GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+I1205 10:37:51.004025 140541713356608 posit_config.py:59] GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+INFO:tensorflow:Float dtype is being used at layer conv2d_1
+I1205 10:37:51.029072 140541713356608 base_layer.py:700] Float dtype is being used at layer conv2d_1
+INFO:tensorflow:Float dtype is being used at layer mpool0
+I1205 10:37:51.048327 140541713356608 base_layer.py:700] Float dtype is being used at layer mpool0
+INFO:tensorflow:Float dtype is being used at layer conv2d_2
+I1205 10:37:51.050991 140541713356608 base_layer.py:700] Float dtype is being used at layer conv2d_2
+INFO:tensorflow:Float dtype is being used at layer mpool1
+I1205 10:37:51.067471 140541713356608 base_layer.py:700] Float dtype is being used at layer mpool1
+WARNING:tensorflow:From /home/scott/Downloads/tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1803: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+W1205 10:37:51.469274 140541713356608 deprecation.py:305] From /home/scott/Downloads/tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1803: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+INFO:tensorflow:Running local_init_op.
+I1205 10:37:51.664037 140541713356608 session_manager.py:498] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I1205 10:37:51.673188 140541713356608 session_manager.py:500] Done running local_init_op.
+INFO:tensorflow:Starting standard services.
+I1205 10:37:51.692406 140541713356608 supervisor.py:733] Starting standard services.
+WARNING:tensorflow:Standard services need a 'logdir' passed to the SessionManager
+W1205 10:37:51.692560 140541713356608 supervisor.py:668] Standard services need a 'logdir' passed to the SessionManager
+INFO:tensorflow:Starting queue runners.
+I1205 10:37:51.692626 140541713356608 supervisor.py:740] Starting queue runners.
+TensorFlow:  1.12
+Model:       alexnet
+Dataset:     cifar10 (synthetic)
+Mode:        training
+SingleSess:  False
+Batch size:  5 global
+             5.0 per device
+Num batches: 100
+Num epochs:  0.01
+Devices:     ['/cpu:0']
+Data format: NHWC
+Layout optimizer: False
+Optimizer:   rmsprop
+Variables:   parameter_server
+==========
+Generating model
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+Saving graph to: tensorboard_out/alexnet/alex
+Running warm up
+Done warm up
+Step	Img/sec	total_loss
+1	images/sec: 260.1 +/- 0.0 (jitter = 0.0)	14.461
+10	images/sec: 267.4 +/- 2.2 (jitter = 7.1)	26.006
+20	images/sec: 266.6 +/- 1.8 (jitter = 7.9)	32.361
+30	images/sec: 267.1 +/- 1.7 (jitter = 10.7)	34.608
+40	images/sec: 257.8 +/- 3.1 (jitter = 11.7)	35.476
+50	images/sec: 255.1 +/- 2.8 (jitter = 16.1)	35.318
+60	images/sec: 252.5 +/- 2.6 (jitter = 18.8)	35.582
+70	images/sec: 251.5 +/- 2.4 (jitter = 18.6)	35.669
+80	images/sec: 252.2 +/- 2.2 (jitter = 19.4)	35.563
+90	images/sec: 252.5 +/- 2.1 (jitter = 19.4)	35.330
+100	images/sec: 251.0 +/- 2.0 (jitter = 19.3)	35.494
+----------------------------------------------------------------
+total images/sec: 250.26
+----------------------------------------------------------------

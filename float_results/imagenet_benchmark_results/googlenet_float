@@ -1,0 +1,189 @@
+INFO:tensorflow:GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+I1205 10:19:08.500069 139813236844352 posit_config.py:59] GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+INFO:tensorflow:Float dtype is being used at layer conv2d_1
+I1205 10:19:08.524853 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_1
+INFO:tensorflow:Float dtype is being used at layer mpool0
+I1205 10:19:08.543118 139813236844352 base_layer.py:700] Float dtype is being used at layer mpool0
+INFO:tensorflow:Float dtype is being used at layer conv2d_2
+I1205 10:19:08.544623 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_2
+INFO:tensorflow:Float dtype is being used at layer conv2d_3
+I1205 10:19:08.561141 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_3
+INFO:tensorflow:Float dtype is being used at layer mpool1
+I1205 10:19:08.577487 139813236844352 base_layer.py:700] Float dtype is being used at layer mpool1
+INFO:tensorflow:Float dtype is being used at layer conv2d_4
+I1205 10:19:08.579637 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_4
+INFO:tensorflow:Float dtype is being used at layer conv2d_5
+I1205 10:19:08.595736 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_5
+INFO:tensorflow:Float dtype is being used at layer conv2d_6
+I1205 10:19:08.611889 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_6
+INFO:tensorflow:Float dtype is being used at layer conv2d_7
+I1205 10:19:08.628083 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_7
+INFO:tensorflow:Float dtype is being used at layer conv2d_8
+I1205 10:19:08.644302 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_8
+INFO:tensorflow:Float dtype is being used at layer mpool2
+I1205 10:19:08.660784 139813236844352 base_layer.py:700] Float dtype is being used at layer mpool2
+INFO:tensorflow:Float dtype is being used at layer conv2d_9
+I1205 10:19:08.662453 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_9
+INFO:tensorflow:Float dtype is being used at layer conv2d_10
+I1205 10:19:08.728807 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_10
+INFO:tensorflow:Float dtype is being used at layer conv2d_11
+I1205 10:19:08.748817 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_11
+INFO:tensorflow:Float dtype is being used at layer conv2d_12
+I1205 10:19:08.766493 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_12
+INFO:tensorflow:Float dtype is being used at layer conv2d_13
+I1205 10:19:08.783208 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_13
+INFO:tensorflow:Float dtype is being used at layer conv2d_14
+I1205 10:19:08.799500 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_14
+INFO:tensorflow:Float dtype is being used at layer mpool3
+I1205 10:19:08.815552 139813236844352 base_layer.py:700] Float dtype is being used at layer mpool3
+INFO:tensorflow:Float dtype is being used at layer conv2d_15
+I1205 10:19:08.817308 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_15
+INFO:tensorflow:Float dtype is being used at layer mpool4
+I1205 10:19:08.834518 139813236844352 base_layer.py:700] Float dtype is being used at layer mpool4
+INFO:tensorflow:Float dtype is being used at layer conv2d_16
+I1205 10:19:08.836142 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_16
+INFO:tensorflow:Float dtype is being used at layer conv2d_17
+I1205 10:19:08.852725 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_17
+INFO:tensorflow:Float dtype is being used at layer conv2d_18
+I1205 10:19:08.869816 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_18
+INFO:tensorflow:Float dtype is being used at layer conv2d_19
+I1205 10:19:08.887180 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_19
+INFO:tensorflow:Float dtype is being used at layer conv2d_20
+I1205 10:19:08.903260 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_20
+INFO:tensorflow:Float dtype is being used at layer mpool5
+I1205 10:19:08.919329 139813236844352 base_layer.py:700] Float dtype is being used at layer mpool5
+INFO:tensorflow:Float dtype is being used at layer conv2d_21
+I1205 10:19:08.920849 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_21
+INFO:tensorflow:Float dtype is being used at layer conv2d_22
+I1205 10:19:08.938421 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_22
+INFO:tensorflow:Float dtype is being used at layer conv2d_23
+I1205 10:19:08.954537 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_23
+INFO:tensorflow:Float dtype is being used at layer conv2d_24
+I1205 10:19:08.971457 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_24
+INFO:tensorflow:Float dtype is being used at layer conv2d_25
+I1205 10:19:08.987824 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_25
+INFO:tensorflow:Float dtype is being used at layer conv2d_26
+I1205 10:19:09.004065 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_26
+INFO:tensorflow:Float dtype is being used at layer mpool6
+I1205 10:19:09.020250 139813236844352 base_layer.py:700] Float dtype is being used at layer mpool6
+INFO:tensorflow:Float dtype is being used at layer conv2d_27
+I1205 10:19:09.021782 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_27
+INFO:tensorflow:Float dtype is being used at layer conv2d_28
+I1205 10:19:09.039312 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_28
+INFO:tensorflow:Float dtype is being used at layer conv2d_29
+I1205 10:19:09.055471 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_29
+INFO:tensorflow:Float dtype is being used at layer conv2d_30
+I1205 10:19:09.071660 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_30
+INFO:tensorflow:Float dtype is being used at layer conv2d_31
+I1205 10:19:09.086870 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_31
+INFO:tensorflow:Float dtype is being used at layer conv2d_32
+I1205 10:19:09.100849 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_32
+INFO:tensorflow:Float dtype is being used at layer mpool7
+I1205 10:19:09.113834 139813236844352 base_layer.py:700] Float dtype is being used at layer mpool7
+INFO:tensorflow:Float dtype is being used at layer conv2d_33
+I1205 10:19:09.115081 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_33
+INFO:tensorflow:Float dtype is being used at layer conv2d_34
+I1205 10:19:09.128502 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_34
+INFO:tensorflow:Float dtype is being used at layer conv2d_35
+I1205 10:19:09.140521 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_35
+INFO:tensorflow:Float dtype is being used at layer conv2d_36
+I1205 10:19:09.152481 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_36
+INFO:tensorflow:Float dtype is being used at layer conv2d_37
+I1205 10:19:09.164424 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_37
+INFO:tensorflow:Float dtype is being used at layer conv2d_38
+I1205 10:19:09.176406 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_38
+INFO:tensorflow:Float dtype is being used at layer mpool8
+I1205 10:19:09.188734 139813236844352 base_layer.py:700] Float dtype is being used at layer mpool8
+INFO:tensorflow:Float dtype is being used at layer conv2d_39
+I1205 10:19:09.189925 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_39
+INFO:tensorflow:Float dtype is being used at layer conv2d_40
+I1205 10:19:09.202828 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_40
+INFO:tensorflow:Float dtype is being used at layer conv2d_41
+I1205 10:19:09.214831 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_41
+INFO:tensorflow:Float dtype is being used at layer conv2d_42
+I1205 10:19:09.226859 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_42
+INFO:tensorflow:Float dtype is being used at layer conv2d_43
+I1205 10:19:09.238801 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_43
+INFO:tensorflow:Float dtype is being used at layer conv2d_44
+I1205 10:19:09.250626 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_44
+INFO:tensorflow:Float dtype is being used at layer mpool9
+I1205 10:19:09.262407 139813236844352 base_layer.py:700] Float dtype is being used at layer mpool9
+INFO:tensorflow:Float dtype is being used at layer conv2d_45
+I1205 10:19:09.263594 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_45
+INFO:tensorflow:Float dtype is being used at layer mpool10
+I1205 10:19:09.276893 139813236844352 base_layer.py:700] Float dtype is being used at layer mpool10
+INFO:tensorflow:Float dtype is being used at layer conv2d_46
+I1205 10:19:09.278155 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_46
+INFO:tensorflow:Float dtype is being used at layer conv2d_47
+I1205 10:19:09.290117 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_47
+INFO:tensorflow:Float dtype is being used at layer conv2d_48
+I1205 10:19:09.301949 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_48
+INFO:tensorflow:Float dtype is being used at layer conv2d_49
+I1205 10:19:09.314184 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_49
+INFO:tensorflow:Float dtype is being used at layer conv2d_50
+I1205 10:19:09.326172 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_50
+INFO:tensorflow:Float dtype is being used at layer mpool11
+I1205 10:19:09.337968 139813236844352 base_layer.py:700] Float dtype is being used at layer mpool11
+INFO:tensorflow:Float dtype is being used at layer conv2d_51
+I1205 10:19:09.339185 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_51
+INFO:tensorflow:Float dtype is being used at layer conv2d_52
+I1205 10:19:09.352264 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_52
+INFO:tensorflow:Float dtype is being used at layer conv2d_53
+I1205 10:19:09.364575 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_53
+INFO:tensorflow:Float dtype is being used at layer conv2d_54
+I1205 10:19:09.376492 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_54
+INFO:tensorflow:Float dtype is being used at layer conv2d_55
+I1205 10:19:09.388563 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_55
+INFO:tensorflow:Float dtype is being used at layer conv2d_56
+I1205 10:19:09.400472 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_56
+INFO:tensorflow:Float dtype is being used at layer mpool12
+I1205 10:19:09.412486 139813236844352 base_layer.py:700] Float dtype is being used at layer mpool12
+INFO:tensorflow:Float dtype is being used at layer conv2d_57
+I1205 10:19:09.413694 139813236844352 base_layer.py:700] Float dtype is being used at layer conv2d_57
+INFO:tensorflow:Float dtype is being used at layer apool0
+I1205 10:19:09.426657 139813236844352 base_layer.py:700] Float dtype is being used at layer apool0
+WARNING:tensorflow:From /home/scott/Downloads/tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1803: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+W1205 10:19:11.530493 139813236844352 deprecation.py:305] From /home/scott/Downloads/tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1803: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+INFO:tensorflow:Running local_init_op.
+I1205 10:19:12.707804 139813236844352 session_manager.py:498] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I1205 10:19:12.765043 139813236844352 session_manager.py:500] Done running local_init_op.
+TensorFlow:  1.12
+Model:       googlenet
+Dataset:     imagenet (synthetic)
+Mode:        training
+SingleSess:  False
+Batch size:  5 global
+             5.0 per device
+Num batches: 100
+Num epochs:  0.00
+Devices:     ['/cpu:0']
+Data format: NHWC
+Layout optimizer: False
+Optimizer:   rmsprop
+Variables:   parameter_server
+==========
+Generating model
+
+Saving graph to: tensorboard_out/alexnet/alex
+Running warm up
+Done warm up
+Step	Img/sec	total_loss
+1	images/sec: 13.2 +/- 0.0 (jitter = 0.0)	7.220
+10	images/sec: 13.1 +/- 0.0 (jitter = 0.1)	7.124
+20	images/sec: 12.2 +/- 0.2 (jitter = 0.4)	7.112
+30	images/sec: 12.2 +/- 0.2 (jitter = 0.6)	7.037
+40	images/sec: 12.0 +/- 0.2 (jitter = 1.1)	7.134
+50	images/sec: 12.1 +/- 0.1 (jitter = 1.2)	7.094
+60	images/sec: 12.1 +/- 0.1 (jitter = 1.2)	7.136
+70	images/sec: 12.0 +/- 0.1 (jitter = 1.3)	7.158
+80	images/sec: 12.0 +/- 0.1 (jitter = 1.1)	7.102
+90	images/sec: 12.1 +/- 0.1 (jitter = 1.0)	7.099
+100	images/sec: 12.1 +/- 0.1 (jitter = 1.0)	7.093
+----------------------------------------------------------------
+total images/sec: 12.09
+----------------------------------------------------------------

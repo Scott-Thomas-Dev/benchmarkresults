@@ -1,0 +1,1158 @@
+INFO:tensorflow:GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+I1205 10:38:52.262283 140571912058688 posit_config.py:59] GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+INFO:tensorflow:input_image_shape: (5, 32, 32, 3)
+I1205 10:38:52.281179 140571912058688 nasnet_model.py:572] input_image_shape: (5, 32, 32, 3)
+INFO:tensorflow:Float dtype is being used at layer v/cg/l1_stem_3x3
+I1205 10:38:52.282543 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/l1_stem_3x3
+INFO:tensorflow:Float dtype is being used at layer v/cg/l1_stem_bn
+I1205 10:38:52.295097 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/l1_stem_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/1x1
+I1205 10:38:52.312251 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/beginning_bn
+I1205 10:38:52.323718 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/beginning_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_0/left/separable_5x5_1
+I1205 10:38:52.342065 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_0/left/bn_sep_5x5_1
+I1205 10:38:52.360814 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_0/left/separable_5x5_2
+I1205 10:38:52.425806 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_0/left/bn_sep_5x5_2
+I1205 10:38:52.450380 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_0/right/separable_3x3_1
+I1205 10:38:52.490594 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_0/right/bn_sep_3x3_1
+I1205 10:38:52.510390 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_0/right/separable_3x3_2
+I1205 10:38:52.527444 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_0/right/bn_sep_3x3_2
+I1205 10:38:52.545687 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_1/left/separable_5x5_1
+I1205 10:38:52.579463 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_1/left/bn_sep_5x5_1
+I1205 10:38:52.598221 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_1/left/separable_5x5_2
+I1205 10:38:52.615250 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_1/left/bn_sep_5x5_2
+I1205 10:38:52.633621 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_1/right/separable_3x3_1
+I1205 10:38:52.666683 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_1/right/bn_sep_3x3_1
+I1205 10:38:52.685446 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_1/right/separable_3x3_2
+I1205 10:38:52.702401 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_1/right/bn_sep_3x3_2
+I1205 10:38:52.720551 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_1
+I1205 10:38:52.754272 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_2/right/1x1
+I1205 10:38:52.771882 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_2/right/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_2/right/bn_1
+I1205 10:38:52.783321 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_2/right/bn_1
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_2
+I1205 10:38:52.800223 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_3/left/1x1
+I1205 10:38:52.801401 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_3/left/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_3/left/bn_1
+I1205 10:38:52.812832 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_3/left/bn_1
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_3
+I1205 10:38:52.845548 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_3
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_3/right/1x1
+I1205 10:38:52.846748 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_3/right/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_3/right/bn_1
+I1205 10:38:52.858288 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_3/right/bn_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_4/left/separable_3x3_1
+I1205 10:38:52.891857 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_4/left/bn_sep_3x3_1
+I1205 10:38:52.910075 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_4/left/separable_3x3_2
+I1205 10:38:52.927527 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/comb_iter_4/left/bn_sep_3x3_2
+I1205 10:38:52.945759 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/cell_output/reduction_1/path_conv
+I1205 10:38:52.979008 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/cell_output/reduction_1/path_conv
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_0/cell_output/reduction_1/path_bn
+I1205 10:38:52.990504 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_0/cell_output/reduction_1/path_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/prev_1x1
+I1205 10:38:53.009150 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/prev_1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/prev_bn
+I1205 10:38:53.020720 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/prev_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/1x1
+I1205 10:38:53.037503 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/beginning_bn
+I1205 10:38:53.048864 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/beginning_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/comb_iter_0/left/separable_5x5_1
+I1205 10:38:53.067111 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/comb_iter_0/left/bn_sep_5x5_1
+I1205 10:38:53.085812 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/comb_iter_0/left/separable_5x5_2
+I1205 10:38:53.102731 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/comb_iter_0/left/bn_sep_5x5_2
+I1205 10:38:53.120913 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/comb_iter_0/right/separable_3x3_1
+I1205 10:38:53.154117 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/comb_iter_0/right/bn_sep_3x3_1
+I1205 10:38:53.172765 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/comb_iter_0/right/separable_3x3_2
+I1205 10:38:53.189692 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/comb_iter_0/right/bn_sep_3x3_2
+I1205 10:38:53.208040 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/comb_iter_1/left/separable_5x5_1
+I1205 10:38:53.242226 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/comb_iter_1/left/bn_sep_5x5_1
+I1205 10:38:53.260632 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/comb_iter_1/left/separable_5x5_2
+I1205 10:38:53.277562 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/comb_iter_1/left/bn_sep_5x5_2
+I1205 10:38:53.295712 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/comb_iter_1/right/separable_3x3_1
+I1205 10:38:53.379969 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/comb_iter_1/right/bn_sep_3x3_1
+I1205 10:38:53.407385 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/comb_iter_1/right/separable_3x3_2
+I1205 10:38:53.428530 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/comb_iter_1/right/bn_sep_3x3_2
+I1205 10:38:53.449104 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_4
+I1205 10:38:53.483211 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_4
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_5
+I1205 10:38:53.501240 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_5
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_6
+I1205 10:38:53.518559 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_6
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/comb_iter_4/left/separable_3x3_1
+I1205 10:38:53.536954 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/comb_iter_4/left/bn_sep_3x3_1
+I1205 10:38:53.555242 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/comb_iter_4/left/separable_3x3_2
+I1205 10:38:53.572602 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_1/comb_iter_4/left/bn_sep_3x3_2
+I1205 10:38:53.590910 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_1/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/prev_1x1
+I1205 10:38:53.625967 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/prev_1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/prev_bn
+I1205 10:38:53.637671 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/prev_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/1x1
+I1205 10:38:53.654986 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/beginning_bn
+I1205 10:38:53.666471 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/beginning_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/comb_iter_0/left/separable_5x5_1
+I1205 10:38:53.684814 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/comb_iter_0/left/bn_sep_5x5_1
+I1205 10:38:53.703093 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/comb_iter_0/left/separable_5x5_2
+I1205 10:38:53.720035 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/comb_iter_0/left/bn_sep_5x5_2
+I1205 10:38:53.738858 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/comb_iter_0/right/separable_3x3_1
+I1205 10:38:53.772099 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/comb_iter_0/right/bn_sep_3x3_1
+I1205 10:38:53.790455 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/comb_iter_0/right/separable_3x3_2
+I1205 10:38:53.807815 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/comb_iter_0/right/bn_sep_3x3_2
+I1205 10:38:53.826097 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/comb_iter_1/left/separable_5x5_1
+I1205 10:38:53.860058 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/comb_iter_1/left/bn_sep_5x5_1
+I1205 10:38:53.878489 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/comb_iter_1/left/separable_5x5_2
+I1205 10:38:53.895933 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/comb_iter_1/left/bn_sep_5x5_2
+I1205 10:38:53.914368 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/comb_iter_1/right/separable_3x3_1
+I1205 10:38:53.947662 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/comb_iter_1/right/bn_sep_3x3_1
+I1205 10:38:53.966529 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/comb_iter_1/right/separable_3x3_2
+I1205 10:38:53.983627 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/comb_iter_1/right/bn_sep_3x3_2
+I1205 10:38:54.001922 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_7
+I1205 10:38:54.035255 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_7
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_8
+I1205 10:38:54.053734 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_8
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_9
+I1205 10:38:54.070992 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_9
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/comb_iter_4/left/separable_3x3_1
+I1205 10:38:54.089388 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/comb_iter_4/left/bn_sep_3x3_1
+I1205 10:38:54.107692 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/comb_iter_4/left/separable_3x3_2
+I1205 10:38:54.124670 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_2/comb_iter_4/left/bn_sep_3x3_2
+I1205 10:38:54.143443 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_2/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/prev_1x1
+I1205 10:38:54.178539 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/prev_1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/prev_bn
+I1205 10:38:54.190172 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/prev_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/1x1
+I1205 10:38:54.207098 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/beginning_bn
+I1205 10:38:54.219101 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/beginning_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/comb_iter_0/left/separable_5x5_1
+I1205 10:38:54.237553 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/comb_iter_0/left/bn_sep_5x5_1
+I1205 10:38:54.256413 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/comb_iter_0/left/separable_5x5_2
+I1205 10:38:54.273452 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/comb_iter_0/left/bn_sep_5x5_2
+I1205 10:38:54.291814 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/comb_iter_0/right/separable_3x3_1
+I1205 10:38:54.397285 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/comb_iter_0/right/bn_sep_3x3_1
+I1205 10:38:54.420010 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/comb_iter_0/right/separable_3x3_2
+I1205 10:38:54.438157 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/comb_iter_0/right/bn_sep_3x3_2
+I1205 10:38:54.456567 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/comb_iter_1/left/separable_5x5_1
+I1205 10:38:54.490940 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/comb_iter_1/left/bn_sep_5x5_1
+I1205 10:38:54.509349 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/comb_iter_1/left/separable_5x5_2
+I1205 10:38:54.526331 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/comb_iter_1/left/bn_sep_5x5_2
+I1205 10:38:54.545074 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/comb_iter_1/right/separable_3x3_1
+I1205 10:38:54.578307 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/comb_iter_1/right/bn_sep_3x3_1
+I1205 10:38:54.596707 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/comb_iter_1/right/separable_3x3_2
+I1205 10:38:54.613721 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/comb_iter_1/right/bn_sep_3x3_2
+I1205 10:38:54.632648 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_10
+I1205 10:38:54.666090 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_10
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_11
+I1205 10:38:54.684212 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_11
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_12
+I1205 10:38:54.701582 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_12
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/comb_iter_4/left/separable_3x3_1
+I1205 10:38:54.720762 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/comb_iter_4/left/bn_sep_3x3_1
+I1205 10:38:54.739273 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/comb_iter_4/left/separable_3x3_2
+I1205 10:38:54.756350 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_3/comb_iter_4/left/bn_sep_3x3_2
+I1205 10:38:54.774780 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_3/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/prev_1x1
+I1205 10:38:54.810307 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/prev_1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/prev_bn
+I1205 10:38:54.821927 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/prev_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/1x1
+I1205 10:38:54.838890 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/beginning_bn
+I1205 10:38:54.850474 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/beginning_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/comb_iter_0/left/separable_5x5_1
+I1205 10:38:54.868843 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/comb_iter_0/left/bn_sep_5x5_1
+I1205 10:38:54.887645 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/comb_iter_0/left/separable_5x5_2
+I1205 10:38:54.904747 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/comb_iter_0/left/bn_sep_5x5_2
+I1205 10:38:54.923146 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/comb_iter_0/right/separable_3x3_1
+I1205 10:38:54.956462 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/comb_iter_0/right/bn_sep_3x3_1
+I1205 10:38:54.975311 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/comb_iter_0/right/separable_3x3_2
+I1205 10:38:54.992362 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/comb_iter_0/right/bn_sep_3x3_2
+I1205 10:38:55.010692 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/comb_iter_1/left/separable_5x5_1
+I1205 10:38:55.045060 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/comb_iter_1/left/bn_sep_5x5_1
+I1205 10:38:55.063415 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/comb_iter_1/left/separable_5x5_2
+I1205 10:38:55.080421 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/comb_iter_1/left/bn_sep_5x5_2
+I1205 10:38:55.098971 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/comb_iter_1/right/separable_3x3_1
+I1205 10:38:55.132692 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/comb_iter_1/right/bn_sep_3x3_1
+I1205 10:38:55.151149 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/comb_iter_1/right/separable_3x3_2
+I1205 10:38:55.168196 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/comb_iter_1/right/bn_sep_3x3_2
+I1205 10:38:55.186708 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_13
+I1205 10:38:55.220653 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_13
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_14
+I1205 10:38:55.238785 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_14
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_15
+I1205 10:38:55.256174 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_15
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/comb_iter_4/left/separable_3x3_1
+I1205 10:38:55.274765 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/comb_iter_4/left/bn_sep_3x3_1
+I1205 10:38:55.293764 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/comb_iter_4/left/separable_3x3_2
+I1205 10:38:55.389995 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_4/comb_iter_4/left/bn_sep_3x3_2
+I1205 10:38:55.413879 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_4/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/prev_1x1
+I1205 10:38:55.452179 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/prev_1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/prev_bn
+I1205 10:38:55.463961 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/prev_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/1x1
+I1205 10:38:55.481432 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/beginning_bn
+I1205 10:38:55.493206 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/beginning_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/comb_iter_0/left/separable_5x5_1
+I1205 10:38:55.511686 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/comb_iter_0/left/bn_sep_5x5_1
+I1205 10:38:55.530061 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/comb_iter_0/left/separable_5x5_2
+I1205 10:38:55.547109 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/comb_iter_0/left/bn_sep_5x5_2
+I1205 10:38:55.566022 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/comb_iter_0/right/separable_3x3_1
+I1205 10:38:55.599273 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/comb_iter_0/right/bn_sep_3x3_1
+I1205 10:38:55.618218 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/comb_iter_0/right/separable_3x3_2
+I1205 10:38:55.635813 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/comb_iter_0/right/bn_sep_3x3_2
+I1205 10:38:55.654386 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/comb_iter_1/left/separable_5x5_1
+I1205 10:38:55.688411 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/comb_iter_1/left/bn_sep_5x5_1
+I1205 10:38:55.707271 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/comb_iter_1/left/separable_5x5_2
+I1205 10:38:55.724764 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/comb_iter_1/left/bn_sep_5x5_2
+I1205 10:38:55.743300 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/comb_iter_1/right/separable_3x3_1
+I1205 10:38:55.776665 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/comb_iter_1/right/bn_sep_3x3_1
+I1205 10:38:55.795686 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/comb_iter_1/right/separable_3x3_2
+I1205 10:38:55.812827 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/comb_iter_1/right/bn_sep_3x3_2
+I1205 10:38:55.831313 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_16
+I1205 10:38:55.864963 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_16
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_17
+I1205 10:38:55.883637 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_17
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_18
+I1205 10:38:55.901144 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_18
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/comb_iter_4/left/separable_3x3_1
+I1205 10:38:55.919729 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/comb_iter_4/left/bn_sep_3x3_1
+I1205 10:38:55.938398 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/comb_iter_4/left/separable_3x3_2
+I1205 10:38:55.955566 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_5/comb_iter_4/left/bn_sep_3x3_2
+I1205 10:38:55.974550 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_5/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/prev_1x1
+I1205 10:38:56.009992 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/prev_1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/prev_bn
+I1205 10:38:56.021849 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/prev_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/1x1
+I1205 10:38:56.038893 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/beginning_bn
+I1205 10:38:56.051125 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/beginning_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_0/left/separable_5x5_1
+I1205 10:38:56.069599 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_0/left/bn_sep_5x5_1
+I1205 10:38:56.088119 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_0/left/separable_5x5_2
+I1205 10:38:56.105160 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_0/left/bn_sep_5x5_2
+I1205 10:38:56.123711 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_0/right/separable_7x7_1
+I1205 10:38:56.157464 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_0/right/separable_7x7_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_0/right/bn_sep_7x7_1
+I1205 10:38:56.175977 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_0/right/bn_sep_7x7_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_0/right/separable_7x7_2
+I1205 10:38:56.193093 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_0/right/separable_7x7_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_0/right/bn_sep_7x7_2
+I1205 10:38:56.212079 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_0/right/bn_sep_7x7_2
+INFO:tensorflow:Float dtype is being used at layer max_pooling2d_1
+I1205 10:38:56.245553 140571912058688 base_layer.py:700] Float dtype is being used at layer max_pooling2d_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_1/right/separable_7x7_1
+I1205 10:38:56.264587 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_1/right/separable_7x7_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_1/right/bn_sep_7x7_1
+I1205 10:38:56.283157 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_1/right/bn_sep_7x7_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_1/right/separable_7x7_2
+I1205 10:38:56.300673 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_1/right/separable_7x7_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_1/right/bn_sep_7x7_2
+I1205 10:38:56.319271 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_1/right/bn_sep_7x7_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_19
+I1205 10:38:56.352765 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_19
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_2/right/separable_5x5_1
+I1205 10:38:56.370668 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_2/right/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_2/right/bn_sep_5x5_1
+I1205 10:38:56.389780 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_2/right/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_2/right/separable_5x5_2
+I1205 10:38:56.406904 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_2/right/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_2/right/bn_sep_5x5_2
+I1205 10:38:56.425483 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_2/right/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_20
+I1205 10:38:56.459382 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_20
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_4/left/separable_3x3_1
+I1205 10:38:56.563138 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_4/left/bn_sep_3x3_1
+I1205 10:38:56.590646 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_4/left/separable_3x3_2
+I1205 10:38:56.612042 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_4/left/bn_sep_3x3_2
+I1205 10:38:56.632499 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_0/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer max_pooling2d_2
+I1205 10:38:56.666005 140571912058688 base_layer.py:700] Float dtype is being used at layer max_pooling2d_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/path1_conv
+I1205 10:38:56.686509 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/path1_conv
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/path2_conv
+I1205 10:38:56.701883 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/path2_conv
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/final_path_bn
+I1205 10:38:56.714421 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/final_path_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/1x1
+I1205 10:38:56.731528 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/beginning_bn
+I1205 10:38:56.743800 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/beginning_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/comb_iter_0/left/separable_5x5_1
+I1205 10:38:56.762455 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/comb_iter_0/left/bn_sep_5x5_1
+I1205 10:38:56.781141 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/comb_iter_0/left/separable_5x5_2
+I1205 10:38:56.798439 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/comb_iter_0/left/bn_sep_5x5_2
+I1205 10:38:56.817615 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/comb_iter_0/right/separable_3x3_1
+I1205 10:38:56.851288 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/comb_iter_0/right/bn_sep_3x3_1
+I1205 10:38:56.870014 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/comb_iter_0/right/separable_3x3_2
+I1205 10:38:56.887544 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/comb_iter_0/right/bn_sep_3x3_2
+I1205 10:38:56.907422 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/comb_iter_1/left/separable_5x5_1
+I1205 10:38:56.941740 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/comb_iter_1/left/bn_sep_5x5_1
+I1205 10:38:56.960482 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/comb_iter_1/left/separable_5x5_2
+I1205 10:38:56.977770 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/comb_iter_1/left/bn_sep_5x5_2
+I1205 10:38:56.997064 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/comb_iter_1/right/separable_3x3_1
+I1205 10:38:57.030755 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/comb_iter_1/right/bn_sep_3x3_1
+I1205 10:38:57.049938 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/comb_iter_1/right/separable_3x3_2
+I1205 10:38:57.067976 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/comb_iter_1/right/bn_sep_3x3_2
+I1205 10:38:57.086727 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_21
+I1205 10:38:57.120405 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_21
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_22
+I1205 10:38:57.138738 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_22
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_23
+I1205 10:38:57.157062 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_23
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/comb_iter_4/left/separable_3x3_1
+I1205 10:38:57.175811 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/comb_iter_4/left/bn_sep_3x3_1
+I1205 10:38:57.194460 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/comb_iter_4/left/separable_3x3_2
+I1205 10:38:57.211507 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_6/comb_iter_4/left/bn_sep_3x3_2
+I1205 10:38:57.230013 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_6/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/prev_1x1
+I1205 10:38:57.266003 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/prev_1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/prev_bn
+I1205 10:38:57.277899 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/prev_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/1x1
+I1205 10:38:57.294954 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/beginning_bn
+I1205 10:38:57.306705 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/beginning_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/comb_iter_0/left/separable_5x5_1
+I1205 10:38:57.325806 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/comb_iter_0/left/bn_sep_5x5_1
+I1205 10:38:57.344426 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/comb_iter_0/left/separable_5x5_2
+I1205 10:38:57.361575 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/comb_iter_0/left/bn_sep_5x5_2
+I1205 10:38:57.380212 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/comb_iter_0/right/separable_3x3_1
+I1205 10:38:57.414141 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/comb_iter_0/right/bn_sep_3x3_1
+I1205 10:38:57.432863 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/comb_iter_0/right/separable_3x3_2
+I1205 10:38:57.450152 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/comb_iter_0/right/bn_sep_3x3_2
+I1205 10:38:57.468895 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/comb_iter_1/left/separable_5x5_1
+I1205 10:38:57.504120 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/comb_iter_1/left/bn_sep_5x5_1
+I1205 10:38:57.522998 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/comb_iter_1/left/separable_5x5_2
+I1205 10:38:57.540269 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/comb_iter_1/left/bn_sep_5x5_2
+I1205 10:38:57.559012 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/comb_iter_1/right/separable_3x3_1
+I1205 10:38:57.593229 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/comb_iter_1/right/bn_sep_3x3_1
+I1205 10:38:57.612659 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/comb_iter_1/right/separable_3x3_2
+I1205 10:38:57.630127 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/comb_iter_1/right/bn_sep_3x3_2
+I1205 10:38:57.648857 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_24
+I1205 10:38:57.683237 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_24
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_25
+I1205 10:38:57.701600 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_25
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_26
+I1205 10:38:57.719184 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_26
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/comb_iter_4/left/separable_3x3_1
+I1205 10:38:57.737879 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/comb_iter_4/left/bn_sep_3x3_1
+I1205 10:38:57.757204 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/comb_iter_4/left/separable_3x3_2
+I1205 10:38:57.774585 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_7/comb_iter_4/left/bn_sep_3x3_2
+I1205 10:38:57.793269 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_7/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/prev_1x1
+I1205 10:38:57.828868 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/prev_1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/prev_bn
+I1205 10:38:57.841125 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/prev_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/1x1
+I1205 10:38:57.858268 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/beginning_bn
+I1205 10:38:57.870125 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/beginning_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/comb_iter_0/left/separable_5x5_1
+I1205 10:38:57.888704 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/comb_iter_0/left/bn_sep_5x5_1
+I1205 10:38:57.907693 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/comb_iter_0/left/separable_5x5_2
+I1205 10:38:57.924906 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/comb_iter_0/left/bn_sep_5x5_2
+I1205 10:38:57.943636 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/comb_iter_0/right/separable_3x3_1
+I1205 10:38:57.977193 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/comb_iter_0/right/bn_sep_3x3_1
+I1205 10:38:57.996699 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/comb_iter_0/right/separable_3x3_2
+I1205 10:38:58.124206 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/comb_iter_0/right/bn_sep_3x3_2
+I1205 10:38:58.147844 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/comb_iter_1/left/separable_5x5_1
+I1205 10:38:58.184588 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/comb_iter_1/left/bn_sep_5x5_1
+I1205 10:38:58.206234 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/comb_iter_1/left/separable_5x5_2
+I1205 10:38:58.223673 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/comb_iter_1/left/bn_sep_5x5_2
+I1205 10:38:58.242376 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/comb_iter_1/right/separable_3x3_1
+I1205 10:38:58.276432 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/comb_iter_1/right/bn_sep_3x3_1
+I1205 10:38:58.297500 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/comb_iter_1/right/separable_3x3_2
+I1205 10:38:58.315869 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/comb_iter_1/right/bn_sep_3x3_2
+I1205 10:38:58.336349 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_27
+I1205 10:38:58.372843 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_27
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_28
+I1205 10:38:58.392492 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_28
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_29
+I1205 10:38:58.410481 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_29
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/comb_iter_4/left/separable_3x3_1
+I1205 10:38:58.430020 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/comb_iter_4/left/bn_sep_3x3_1
+I1205 10:38:58.451644 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/comb_iter_4/left/separable_3x3_2
+I1205 10:38:58.473854 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_8/comb_iter_4/left/bn_sep_3x3_2
+I1205 10:38:58.500953 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_8/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/prev_1x1
+I1205 10:38:58.550544 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/prev_1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/prev_bn
+I1205 10:38:58.568196 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/prev_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/1x1
+I1205 10:38:58.599897 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/beginning_bn
+I1205 10:38:58.623071 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/beginning_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/comb_iter_0/left/separable_5x5_1
+I1205 10:38:58.658464 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/comb_iter_0/left/bn_sep_5x5_1
+I1205 10:38:58.693478 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/comb_iter_0/left/separable_5x5_2
+I1205 10:38:58.724386 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/comb_iter_0/left/bn_sep_5x5_2
+I1205 10:38:58.754428 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/comb_iter_0/right/separable_3x3_1
+I1205 10:38:58.803638 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/comb_iter_0/right/bn_sep_3x3_1
+I1205 10:38:58.830496 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/comb_iter_0/right/separable_3x3_2
+I1205 10:38:58.855930 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/comb_iter_0/right/bn_sep_3x3_2
+I1205 10:38:58.884526 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/comb_iter_1/left/separable_5x5_1
+I1205 10:38:58.934322 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/comb_iter_1/left/bn_sep_5x5_1
+I1205 10:38:58.960553 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/comb_iter_1/left/separable_5x5_2
+I1205 10:38:58.986605 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/comb_iter_1/left/bn_sep_5x5_2
+I1205 10:38:59.013786 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/comb_iter_1/right/separable_3x3_1
+I1205 10:38:59.066242 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/comb_iter_1/right/bn_sep_3x3_1
+I1205 10:38:59.092745 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/comb_iter_1/right/separable_3x3_2
+I1205 10:38:59.119310 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/comb_iter_1/right/bn_sep_3x3_2
+I1205 10:38:59.145442 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_30
+I1205 10:38:59.194554 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_30
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_31
+I1205 10:38:59.224227 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_31
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_32
+I1205 10:38:59.252158 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_32
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/comb_iter_4/left/separable_3x3_1
+I1205 10:38:59.278455 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/comb_iter_4/left/bn_sep_3x3_1
+I1205 10:38:59.306698 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/comb_iter_4/left/separable_3x3_2
+I1205 10:38:59.332558 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_9/comb_iter_4/left/bn_sep_3x3_2
+I1205 10:38:59.358685 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_9/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/prev_1x1
+I1205 10:38:59.409951 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/prev_1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/prev_bn
+I1205 10:38:59.426896 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/prev_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/1x1
+I1205 10:38:59.452944 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/beginning_bn
+I1205 10:38:59.470320 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/beginning_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/comb_iter_0/left/separable_5x5_1
+I1205 10:38:59.499140 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/comb_iter_0/left/bn_sep_5x5_1
+I1205 10:38:59.525434 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/comb_iter_0/left/separable_5x5_2
+I1205 10:38:59.549669 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/comb_iter_0/left/bn_sep_5x5_2
+I1205 10:38:59.577998 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/comb_iter_0/right/separable_3x3_1
+I1205 10:38:59.625986 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/comb_iter_0/right/bn_sep_3x3_1
+I1205 10:38:59.652245 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/comb_iter_0/right/separable_3x3_2
+I1205 10:38:59.677548 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/comb_iter_0/right/bn_sep_3x3_2
+I1205 10:38:59.703722 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/comb_iter_1/left/separable_5x5_1
+I1205 10:38:59.750832 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/comb_iter_1/left/bn_sep_5x5_1
+I1205 10:38:59.776974 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/comb_iter_1/left/separable_5x5_2
+I1205 10:38:59.800135 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/comb_iter_1/left/bn_sep_5x5_2
+I1205 10:38:59.826545 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/comb_iter_1/right/separable_3x3_1
+I1205 10:38:59.870729 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/comb_iter_1/right/bn_sep_3x3_1
+I1205 10:38:59.894734 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/comb_iter_1/right/separable_3x3_2
+I1205 10:38:59.916123 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/comb_iter_1/right/bn_sep_3x3_2
+I1205 10:38:59.940433 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_33
+I1205 10:38:59.980760 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_33
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_34
+I1205 10:39:00.004919 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_34
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_35
+I1205 10:39:00.028765 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_35
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/comb_iter_4/left/separable_3x3_1
+I1205 10:39:00.056809 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/comb_iter_4/left/bn_sep_3x3_1
+I1205 10:39:00.086224 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/comb_iter_4/left/separable_3x3_2
+I1205 10:39:00.111050 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_10/comb_iter_4/left/bn_sep_3x3_2
+I1205 10:39:00.139747 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_10/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/prev_1x1
+I1205 10:39:00.193180 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/prev_1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/prev_bn
+I1205 10:39:00.210928 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/prev_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/1x1
+I1205 10:39:00.237184 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/beginning_bn
+I1205 10:39:00.254541 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/beginning_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/comb_iter_0/left/separable_5x5_1
+I1205 10:39:00.282463 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/comb_iter_0/left/bn_sep_5x5_1
+I1205 10:39:00.309605 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/comb_iter_0/left/separable_5x5_2
+I1205 10:39:00.335533 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/comb_iter_0/left/bn_sep_5x5_2
+I1205 10:39:00.361591 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/comb_iter_0/right/separable_3x3_1
+I1205 10:39:00.409119 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/comb_iter_0/right/bn_sep_3x3_1
+I1205 10:39:00.572239 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/comb_iter_0/right/separable_3x3_2
+I1205 10:39:00.600842 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/comb_iter_0/right/bn_sep_3x3_2
+I1205 10:39:00.627695 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/comb_iter_1/left/separable_5x5_1
+I1205 10:39:00.674658 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/comb_iter_1/left/bn_sep_5x5_1
+I1205 10:39:00.701571 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/comb_iter_1/left/separable_5x5_2
+I1205 10:39:00.728065 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/comb_iter_1/left/bn_sep_5x5_2
+I1205 10:39:00.756307 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/comb_iter_1/right/separable_3x3_1
+I1205 10:39:00.805554 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/comb_iter_1/right/bn_sep_3x3_1
+I1205 10:39:00.833092 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/comb_iter_1/right/separable_3x3_2
+I1205 10:39:00.858328 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/comb_iter_1/right/bn_sep_3x3_2
+I1205 10:39:00.885292 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_36
+I1205 10:39:00.936187 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_36
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_37
+I1205 10:39:00.962375 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_37
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_38
+I1205 10:39:00.988987 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_38
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/comb_iter_4/left/separable_3x3_1
+I1205 10:39:01.016012 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/comb_iter_4/left/bn_sep_3x3_1
+I1205 10:39:01.044068 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/comb_iter_4/left/separable_3x3_2
+I1205 10:39:01.071237 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_11/comb_iter_4/left/bn_sep_3x3_2
+I1205 10:39:01.098709 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_11/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/prev_1x1
+I1205 10:39:01.150491 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/prev_1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/prev_bn
+I1205 10:39:01.167660 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/prev_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/1x1
+I1205 10:39:01.193249 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/beginning_bn
+I1205 10:39:01.210434 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/beginning_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_0/left/separable_5x5_1
+I1205 10:39:01.237536 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_0/left/bn_sep_5x5_1
+I1205 10:39:01.263390 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_0/left/separable_5x5_2
+I1205 10:39:01.287963 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_0/left/bn_sep_5x5_2
+I1205 10:39:01.318257 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_0/right/separable_7x7_1
+I1205 10:39:01.364713 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_0/right/separable_7x7_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_0/right/bn_sep_7x7_1
+I1205 10:39:01.391858 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_0/right/bn_sep_7x7_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_0/right/separable_7x7_2
+I1205 10:39:01.418063 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_0/right/separable_7x7_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_0/right/bn_sep_7x7_2
+I1205 10:39:01.445495 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_0/right/bn_sep_7x7_2
+INFO:tensorflow:Float dtype is being used at layer max_pooling2d_3
+I1205 10:39:01.497027 140571912058688 base_layer.py:700] Float dtype is being used at layer max_pooling2d_3
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_1/right/separable_7x7_1
+I1205 10:39:01.526085 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_1/right/separable_7x7_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_1/right/bn_sep_7x7_1
+I1205 10:39:01.558066 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_1/right/bn_sep_7x7_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_1/right/separable_7x7_2
+I1205 10:39:01.587078 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_1/right/separable_7x7_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_1/right/bn_sep_7x7_2
+I1205 10:39:01.620466 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_1/right/bn_sep_7x7_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_39
+I1205 10:39:01.672643 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_39
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_2/right/separable_5x5_1
+I1205 10:39:01.698488 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_2/right/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_2/right/bn_sep_5x5_1
+I1205 10:39:01.725845 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_2/right/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_2/right/separable_5x5_2
+I1205 10:39:01.748802 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_2/right/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_2/right/bn_sep_5x5_2
+I1205 10:39:01.776614 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_2/right/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_40
+I1205 10:39:01.819001 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_40
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_4/left/separable_3x3_1
+I1205 10:39:01.839920 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_4/left/bn_sep_3x3_1
+I1205 10:39:01.860179 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_4/left/separable_3x3_2
+I1205 10:39:01.880447 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_4/left/bn_sep_3x3_2
+I1205 10:39:01.902701 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/reduction_cell_1/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer max_pooling2d_4
+I1205 10:39:01.939510 140571912058688 base_layer.py:700] Float dtype is being used at layer max_pooling2d_4
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/path1_conv
+I1205 10:39:01.961702 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/path1_conv
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/path2_conv
+I1205 10:39:01.977513 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/path2_conv
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/final_path_bn
+I1205 10:39:01.990540 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/final_path_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/1x1
+I1205 10:39:02.008409 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/beginning_bn
+I1205 10:39:02.020538 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/beginning_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/comb_iter_0/left/separable_5x5_1
+I1205 10:39:02.039443 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/comb_iter_0/left/bn_sep_5x5_1
+I1205 10:39:02.058486 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/comb_iter_0/left/separable_5x5_2
+I1205 10:39:02.076047 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/comb_iter_0/left/bn_sep_5x5_2
+I1205 10:39:02.097353 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/comb_iter_0/right/separable_3x3_1
+I1205 10:39:02.135435 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/comb_iter_0/right/bn_sep_3x3_1
+I1205 10:39:02.156831 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/comb_iter_0/right/separable_3x3_2
+I1205 10:39:02.176075 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/comb_iter_0/right/bn_sep_3x3_2
+I1205 10:39:02.198167 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/comb_iter_1/left/separable_5x5_1
+I1205 10:39:02.235156 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/comb_iter_1/left/bn_sep_5x5_1
+I1205 10:39:02.256525 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/comb_iter_1/left/separable_5x5_2
+I1205 10:39:02.276201 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/comb_iter_1/left/bn_sep_5x5_2
+I1205 10:39:02.295891 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/comb_iter_1/right/separable_3x3_1
+I1205 10:39:02.329816 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/comb_iter_1/right/bn_sep_3x3_1
+I1205 10:39:02.349141 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/comb_iter_1/right/separable_3x3_2
+I1205 10:39:02.367239 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/comb_iter_1/right/bn_sep_3x3_2
+I1205 10:39:02.386440 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_41
+I1205 10:39:02.420786 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_41
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_42
+I1205 10:39:02.439393 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_42
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_43
+I1205 10:39:02.457509 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_43
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/comb_iter_4/left/separable_3x3_1
+I1205 10:39:02.476382 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/comb_iter_4/left/bn_sep_3x3_1
+I1205 10:39:02.495498 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/comb_iter_4/left/separable_3x3_2
+I1205 10:39:02.513080 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_12/comb_iter_4/left/bn_sep_3x3_2
+I1205 10:39:02.532451 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_12/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/prev_1x1
+I1205 10:39:02.568753 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/prev_1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/prev_bn
+I1205 10:39:02.580911 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/prev_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/1x1
+I1205 10:39:02.598229 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/beginning_bn
+I1205 10:39:02.610240 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/beginning_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/comb_iter_0/left/separable_5x5_1
+I1205 10:39:02.629633 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/comb_iter_0/left/bn_sep_5x5_1
+I1205 10:39:02.648998 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/comb_iter_0/left/separable_5x5_2
+I1205 10:39:02.666475 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/comb_iter_0/left/bn_sep_5x5_2
+I1205 10:39:02.685348 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/comb_iter_0/right/separable_3x3_1
+I1205 10:39:02.719782 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/comb_iter_0/right/bn_sep_3x3_1
+I1205 10:39:02.738830 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/comb_iter_0/right/separable_3x3_2
+I1205 10:39:02.756274 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/comb_iter_0/right/bn_sep_3x3_2
+I1205 10:39:02.775188 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/comb_iter_1/left/separable_5x5_1
+I1205 10:39:02.810290 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/comb_iter_1/left/bn_sep_5x5_1
+I1205 10:39:02.829269 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/comb_iter_1/left/separable_5x5_2
+I1205 10:39:02.846698 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/comb_iter_1/left/bn_sep_5x5_2
+I1205 10:39:02.866386 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/comb_iter_1/right/separable_3x3_1
+I1205 10:39:02.901638 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/comb_iter_1/right/bn_sep_3x3_1
+I1205 10:39:02.920744 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/comb_iter_1/right/separable_3x3_2
+I1205 10:39:02.938240 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/comb_iter_1/right/bn_sep_3x3_2
+I1205 10:39:02.957900 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_44
+I1205 10:39:02.992311 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_44
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_45
+I1205 10:39:03.010950 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_45
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_46
+I1205 10:39:03.028601 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_46
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/comb_iter_4/left/separable_3x3_1
+I1205 10:39:03.048068 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/comb_iter_4/left/bn_sep_3x3_1
+I1205 10:39:03.068174 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/comb_iter_4/left/separable_3x3_2
+I1205 10:39:03.085692 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_13/comb_iter_4/left/bn_sep_3x3_2
+I1205 10:39:03.104868 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_13/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/prev_1x1
+I1205 10:39:03.290621 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/prev_1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/prev_bn
+I1205 10:39:03.307873 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/prev_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/1x1
+I1205 10:39:03.331619 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/beginning_bn
+I1205 10:39:03.355775 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/beginning_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/comb_iter_0/left/separable_5x5_1
+I1205 10:39:03.389985 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/comb_iter_0/left/bn_sep_5x5_1
+I1205 10:39:03.417695 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/comb_iter_0/left/separable_5x5_2
+I1205 10:39:03.442027 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/comb_iter_0/left/bn_sep_5x5_2
+I1205 10:39:03.480678 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/comb_iter_0/right/separable_3x3_1
+I1205 10:39:03.539825 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/comb_iter_0/right/bn_sep_3x3_1
+I1205 10:39:03.579280 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/comb_iter_0/right/separable_3x3_2
+I1205 10:39:03.610759 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/comb_iter_0/right/bn_sep_3x3_2
+I1205 10:39:03.642790 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/comb_iter_1/left/separable_5x5_1
+I1205 10:39:03.694814 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/comb_iter_1/left/bn_sep_5x5_1
+I1205 10:39:03.723397 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/comb_iter_1/left/separable_5x5_2
+I1205 10:39:03.747940 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/comb_iter_1/left/bn_sep_5x5_2
+I1205 10:39:03.776638 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/comb_iter_1/right/separable_3x3_1
+I1205 10:39:03.828753 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/comb_iter_1/right/bn_sep_3x3_1
+I1205 10:39:03.862724 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/comb_iter_1/right/separable_3x3_2
+I1205 10:39:03.893203 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/comb_iter_1/right/bn_sep_3x3_2
+I1205 10:39:03.922706 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_47
+I1205 10:39:03.973978 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_47
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_48
+I1205 10:39:04.001632 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_48
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_49
+I1205 10:39:04.026384 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_49
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/comb_iter_4/left/separable_3x3_1
+I1205 10:39:04.053699 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/comb_iter_4/left/bn_sep_3x3_1
+I1205 10:39:04.079887 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/comb_iter_4/left/separable_3x3_2
+I1205 10:39:04.106935 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_14/comb_iter_4/left/bn_sep_3x3_2
+I1205 10:39:04.135261 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_14/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/prev_1x1
+I1205 10:39:04.190627 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/prev_1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/prev_bn
+I1205 10:39:04.211761 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/prev_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/1x1
+I1205 10:39:04.243989 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/beginning_bn
+I1205 10:39:04.263100 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/beginning_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/comb_iter_0/left/separable_5x5_1
+I1205 10:39:04.292217 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/comb_iter_0/left/bn_sep_5x5_1
+I1205 10:39:04.320485 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/comb_iter_0/left/separable_5x5_2
+I1205 10:39:04.345601 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/comb_iter_0/left/bn_sep_5x5_2
+I1205 10:39:04.374342 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/comb_iter_0/right/separable_3x3_1
+I1205 10:39:04.423171 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/comb_iter_0/right/bn_sep_3x3_1
+I1205 10:39:04.450271 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/comb_iter_0/right/separable_3x3_2
+I1205 10:39:04.480334 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/comb_iter_0/right/bn_sep_3x3_2
+I1205 10:39:04.514718 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/comb_iter_1/left/separable_5x5_1
+I1205 10:39:04.570708 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/comb_iter_1/left/bn_sep_5x5_1
+I1205 10:39:04.593775 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/comb_iter_1/left/separable_5x5_2
+I1205 10:39:04.613065 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/comb_iter_1/left/bn_sep_5x5_2
+I1205 10:39:04.632292 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/comb_iter_1/right/separable_3x3_1
+I1205 10:39:04.666239 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/comb_iter_1/right/bn_sep_3x3_1
+I1205 10:39:04.686097 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/comb_iter_1/right/separable_3x3_2
+I1205 10:39:04.703793 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/comb_iter_1/right/bn_sep_3x3_2
+I1205 10:39:04.723142 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_50
+I1205 10:39:04.764696 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_50
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_51
+I1205 10:39:04.795457 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_51
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_52
+I1205 10:39:04.820478 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_52
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/comb_iter_4/left/separable_3x3_1
+I1205 10:39:04.843612 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/comb_iter_4/left/bn_sep_3x3_1
+I1205 10:39:04.863942 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/comb_iter_4/left/separable_3x3_2
+I1205 10:39:04.881721 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_15/comb_iter_4/left/bn_sep_3x3_2
+I1205 10:39:04.901356 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_15/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/prev_1x1
+I1205 10:39:04.937797 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/prev_1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/prev_bn
+I1205 10:39:04.950199 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/prev_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/1x1
+I1205 10:39:04.967692 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/beginning_bn
+I1205 10:39:04.980583 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/beginning_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/comb_iter_0/left/separable_5x5_1
+I1205 10:39:04.999566 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/comb_iter_0/left/bn_sep_5x5_1
+I1205 10:39:05.018668 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/comb_iter_0/left/separable_5x5_2
+I1205 10:39:05.040414 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/comb_iter_0/left/bn_sep_5x5_2
+I1205 10:39:05.066549 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/comb_iter_0/right/separable_3x3_1
+I1205 10:39:05.123035 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/comb_iter_0/right/bn_sep_3x3_1
+I1205 10:39:05.150032 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/comb_iter_0/right/separable_3x3_2
+I1205 10:39:05.171128 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/comb_iter_0/right/bn_sep_3x3_2
+I1205 10:39:05.192179 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/comb_iter_1/left/separable_5x5_1
+I1205 10:39:05.227089 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/comb_iter_1/left/bn_sep_5x5_1
+I1205 10:39:05.246412 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/comb_iter_1/left/separable_5x5_2
+I1205 10:39:05.264097 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/comb_iter_1/left/bn_sep_5x5_2
+I1205 10:39:05.283996 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/comb_iter_1/right/separable_3x3_1
+I1205 10:39:05.317961 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/comb_iter_1/right/bn_sep_3x3_1
+I1205 10:39:05.337206 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/comb_iter_1/right/separable_3x3_2
+I1205 10:39:05.354800 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/comb_iter_1/right/bn_sep_3x3_2
+I1205 10:39:05.374605 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_53
+I1205 10:39:05.409251 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_53
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_54
+I1205 10:39:05.428172 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_54
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_55
+I1205 10:39:05.445954 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_55
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/comb_iter_4/left/separable_3x3_1
+I1205 10:39:05.465426 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/comb_iter_4/left/bn_sep_3x3_1
+I1205 10:39:05.484638 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/comb_iter_4/left/separable_3x3_2
+I1205 10:39:05.504944 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_16/comb_iter_4/left/bn_sep_3x3_2
+I1205 10:39:05.532782 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_16/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/prev_1x1
+I1205 10:39:05.592104 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/prev_1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/prev_bn
+I1205 10:39:05.609165 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/prev_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/1x1
+I1205 10:39:05.633253 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/1x1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/beginning_bn
+I1205 10:39:05.649983 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/beginning_bn
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/comb_iter_0/left/separable_5x5_1
+I1205 10:39:05.676556 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/comb_iter_0/left/bn_sep_5x5_1
+I1205 10:39:05.703298 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/comb_iter_0/left/separable_5x5_2
+I1205 10:39:05.726863 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/comb_iter_0/left/bn_sep_5x5_2
+I1205 10:39:05.753702 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/comb_iter_0/right/separable_3x3_1
+I1205 10:39:05.799916 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/comb_iter_0/right/bn_sep_3x3_1
+I1205 10:39:05.826181 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/comb_iter_0/right/separable_3x3_2
+I1205 10:39:05.850743 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/comb_iter_0/right/bn_sep_3x3_2
+I1205 10:39:05.876921 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/comb_iter_1/left/separable_5x5_1
+I1205 10:39:05.926596 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/comb_iter_1/left/bn_sep_5x5_1
+I1205 10:39:05.953000 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/comb_iter_1/left/separable_5x5_2
+I1205 10:39:05.976572 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/comb_iter_1/left/bn_sep_5x5_2
+I1205 10:39:06.003235 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/comb_iter_1/right/separable_3x3_1
+I1205 10:39:06.055710 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/comb_iter_1/right/bn_sep_3x3_1
+I1205 10:39:06.090156 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/comb_iter_1/right/separable_3x3_2
+I1205 10:39:06.121375 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/comb_iter_1/right/bn_sep_3x3_2
+I1205 10:39:06.151442 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_56
+I1205 10:39:06.202546 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_56
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_57
+I1205 10:39:06.228298 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_57
+INFO:tensorflow:Float dtype is being used at layer average_pooling2d_58
+I1205 10:39:06.253602 140571912058688 base_layer.py:700] Float dtype is being used at layer average_pooling2d_58
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/comb_iter_4/left/separable_3x3_1
+I1205 10:39:06.279396 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/comb_iter_4/left/bn_sep_3x3_1
+I1205 10:39:06.308477 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/comb_iter_4/left/separable_3x3_2
+I1205 10:39:06.333249 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:Float dtype is being used at layer v/cg/cell_17/comb_iter_4/left/bn_sep_3x3_2
+I1205 10:39:06.360249 140571912058688 base_layer.py:700] Float dtype is being used at layer v/cg/cell_17/comb_iter_4/left/bn_sep_3x3_2
+WARNING:tensorflow:From /home/scott/Downloads/tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1803: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+W1205 10:39:28.419271 140571912058688 deprecation.py:305] From /home/scott/Downloads/tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1803: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+INFO:tensorflow:Running local_init_op.
+I1205 10:39:39.274986 140571912058688 session_manager.py:498] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I1205 10:39:39.689860 140571912058688 session_manager.py:500] Done running local_init_op.
+INFO:tensorflow:Starting standard services.
+I1205 10:39:42.511363 140571912058688 supervisor.py:733] Starting standard services.
+WARNING:tensorflow:Standard services need a 'logdir' passed to the SessionManager
+W1205 10:39:42.511562 140571912058688 supervisor.py:668] Standard services need a 'logdir' passed to the SessionManager
+INFO:tensorflow:Starting queue runners.
+I1205 10:39:42.511653 140571912058688 supervisor.py:740] Starting queue runners.
+TensorFlow:  1.12
+Model:       nasnet
+Dataset:     cifar10 (synthetic)
+Mode:        training
+SingleSess:  False
+Batch size:  5 global
+             5.0 per device
+Num batches: 100
+Num epochs:  0.01
+Devices:     ['/cpu:0']
+Data format: NHWC
+Layout optimizer: False
+Optimizer:   rmsprop
+Variables:   parameter_server
+==========
+Generating model
+Saving graph to: tensorboard_out/alexnet/alex
+Running warm up
+Done warm up
+Step	Img/sec	total_loss
+1	images/sec: 8.1 +/- 0.0 (jitter = 0.0)	6.892
+10	images/sec: 7.6 +/- 0.2 (jitter = 0.3)	4.711
+20	images/sec: 7.6 +/- 0.1 (jitter = 0.4)	5.656
+30	images/sec: 7.8 +/- 0.1 (jitter = 0.3)	6.178
+40	images/sec: 7.8 +/- 0.1 (jitter = 0.3)	4.132
+50	images/sec: 7.9 +/- 0.1 (jitter = 0.3)	3.576
+60	images/sec: 7.7 +/- 0.1 (jitter = 0.4)	4.141
+70	images/sec: 7.6 +/- 0.1 (jitter = 0.4)	5.230
+80	images/sec: 7.4 +/- 0.1 (jitter = 0.6)	4.322
+90	images/sec: 7.3 +/- 0.1 (jitter = 0.7)	3.384
+100	images/sec: 7.3 +/- 0.1 (jitter = 0.7)	3.605
+----------------------------------------------------------------
+total images/sec: 7.27
+----------------------------------------------------------------

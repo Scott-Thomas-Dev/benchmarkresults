@@ -1,0 +1,76 @@
+INFO:tensorflow:GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+I1205 10:30:19.584401 140294523152192 posit_config.py:59] GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+INFO:tensorflow:Float dtype is being used at layer conv2d_1
+I1205 10:30:19.602687 140294523152192 base_layer.py:700] Float dtype is being used at layer conv2d_1
+INFO:tensorflow:Float dtype is being used at layer mpool0
+I1205 10:30:19.615715 140294523152192 base_layer.py:700] Float dtype is being used at layer mpool0
+INFO:tensorflow:Float dtype is being used at layer conv2d_2
+I1205 10:30:19.616924 140294523152192 base_layer.py:700] Float dtype is being used at layer conv2d_2
+INFO:tensorflow:Float dtype is being used at layer mpool1
+I1205 10:30:19.628610 140294523152192 base_layer.py:700] Float dtype is being used at layer mpool1
+INFO:tensorflow:Float dtype is being used at layer conv2d_3
+I1205 10:30:19.629775 140294523152192 base_layer.py:700] Float dtype is being used at layer conv2d_3
+INFO:tensorflow:Float dtype is being used at layer conv2d_4
+I1205 10:30:19.641502 140294523152192 base_layer.py:700] Float dtype is being used at layer conv2d_4
+INFO:tensorflow:Float dtype is being used at layer mpool2
+I1205 10:30:19.653183 140294523152192 base_layer.py:700] Float dtype is being used at layer mpool2
+INFO:tensorflow:Float dtype is being used at layer conv2d_5
+I1205 10:30:19.654348 140294523152192 base_layer.py:700] Float dtype is being used at layer conv2d_5
+INFO:tensorflow:Float dtype is being used at layer conv2d_6
+I1205 10:30:19.666141 140294523152192 base_layer.py:700] Float dtype is being used at layer conv2d_6
+INFO:tensorflow:Float dtype is being used at layer mpool3
+I1205 10:30:19.677868 140294523152192 base_layer.py:700] Float dtype is being used at layer mpool3
+INFO:tensorflow:Float dtype is being used at layer conv2d_7
+I1205 10:30:19.679036 140294523152192 base_layer.py:700] Float dtype is being used at layer conv2d_7
+INFO:tensorflow:Float dtype is being used at layer conv2d_8
+I1205 10:30:19.690919 140294523152192 base_layer.py:700] Float dtype is being used at layer conv2d_8
+INFO:tensorflow:Float dtype is being used at layer mpool4
+I1205 10:30:19.703049 140294523152192 base_layer.py:700] Float dtype is being used at layer mpool4
+INFO:tensorflow:Float dtype is being used at layer dropout_1
+I1205 10:30:19.757079 140294523152192 base_layer.py:700] Float dtype is being used at layer dropout_1
+INFO:tensorflow:Float dtype is being used at layer dropout_2
+I1205 10:30:19.778339 140294523152192 base_layer.py:700] Float dtype is being used at layer dropout_2
+WARNING:tensorflow:From /home/scott/Downloads/tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1803: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+W1205 10:30:20.239399 140294523152192 deprecation.py:305] From /home/scott/Downloads/tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1803: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+INFO:tensorflow:Running local_init_op.
+I1205 10:30:24.762747 140294523152192 session_manager.py:498] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I1205 10:30:24.790779 140294523152192 session_manager.py:500] Done running local_init_op.
+TensorFlow:  1.12
+Model:       vgg11
+Dataset:     imagenet (synthetic)
+Mode:        training
+SingleSess:  False
+Batch size:  5 global
+             5.0 per device
+Num batches: 100
+Num epochs:  0.00
+Devices:     ['/cpu:0']
+Data format: NHWC
+Layout optimizer: False
+Optimizer:   rmsprop
+Variables:   parameter_server
+==========
+Generating model
+Saving graph to: tensorboard_out/alexnet/alex
+Running warm up
+Done warm up
+Step	Img/sec	total_loss
+1	images/sec: 2.6 +/- 0.0 (jitter = 0.0)	6181133859422208.000
+10	images/sec: 2.9 +/- 0.0 (jitter = 0.1)	8118676226048.000
+20	images/sec: 2.9 +/- 0.0 (jitter = 0.1)	60118310912.000
+30	images/sec: 2.9 +/- 0.0 (jitter = 0.1)	34.227
+40	images/sec: 2.9 +/- 0.0 (jitter = 0.1)	36.255
+50	images/sec: 2.9 +/- 0.0 (jitter = 0.1)	36.078
+60	images/sec: 2.9 +/- 0.0 (jitter = 0.1)	35.449
+70	images/sec: 2.9 +/- 0.0 (jitter = 0.1)	35.727
+80	images/sec: 2.9 +/- 0.0 (jitter = 0.1)	35.678
+90	images/sec: 2.9 +/- 0.0 (jitter = 0.1)	35.513
+100	images/sec: 2.9 +/- 0.0 (jitter = 0.1)	35.726
+----------------------------------------------------------------
+total images/sec: 2.85
+----------------------------------------------------------------

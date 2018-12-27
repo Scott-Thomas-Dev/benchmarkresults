@@ -1,0 +1,61 @@
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_1
+I1202 13:44:24.008624 140522526545216 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool0
+I1202 13:44:24.056824 140522526545216 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool0
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_2
+I1202 13:44:24.058389 140522526545216 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool1
+I1202 13:44:24.077007 140522526545216 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool1
+WARNING:tensorflow:From /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1799: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+W1202 13:44:24.450192 140522526545216 deprecation.py:305] From /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1799: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2018-12-02 13:44:25.866220: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: TITAN V major: 7 minor: 0 memoryClockRate(GHz): 1.455
+pciBusID: 0000:82:00.0
+totalMemory: 11.78GiB freeMemory: 11.37GiB
+2018-12-02 13:44:25.866318: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2018-12-02 13:44:26.175728: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-02 13:44:26.175785: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2018-12-02 13:44:26.175792: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2018-12-02 13:44:26.176045: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10973 MB memory) -> physical GPU (device: 0, name: TITAN V, pci bus id: 0000:82:00.0, compute capability: 7.0)
+INFO:tensorflow:Running local_init_op.
+I1202 13:44:26.503937 140522526545216 session_manager.py:498] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I1202 13:44:26.698437 140522526545216 session_manager.py:500] Done running local_init_op.
+TensorFlow:  1.12
+Model:       lenet5
+Dataset:     imagenet (synthetic)
+Mode:        training
+SingleSess:  False
+Batch size:  5 global
+             5.0 per device
+Num batches: 100
+Num epochs:  0.00
+Devices:     ['/cpu:0']
+Data format: NHWC
+Layout optimizer: False
+Optimizer:   rmsprop
+Variables:   parameter_server
+==========
+Generating model
+Saving graph to: tensorboard_out/alexnet/alex
+Running warm up
+Done warm up
+Step	Img/sec	total_loss
+1	images/sec: 3.0 +/- 0.0 (jitter = 0.0)	6.297
+10	images/sec: 3.0 +/- 0.0 (jitter = 0.1)	6.326
+20	images/sec: 2.9 +/- 0.0 (jitter = 0.1)	6.354
+30	images/sec: 2.9 +/- 0.0 (jitter = 0.1)	6.365
+40	images/sec: 2.9 +/- 0.0 (jitter = 0.1)	6.379
+50	images/sec: 2.9 +/- 0.0 (jitter = 0.1)	6.377
+60	images/sec: 2.9 +/- 0.0 (jitter = 0.0)	6.379
+70	images/sec: 2.9 +/- 0.0 (jitter = 0.1)	6.377
+80	images/sec: 3.0 +/- 0.0 (jitter = 0.1)	6.379
+90	images/sec: 3.0 +/- 0.0 (jitter = 0.1)	6.379
+100	images/sec: 3.1 +/- 0.0 (jitter = 0.1)	6.389
+----------------------------------------------------------------
+total images/sec: 3.06
+----------------------------------------------------------------

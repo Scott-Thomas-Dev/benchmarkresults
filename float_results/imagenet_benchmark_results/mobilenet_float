@@ -1,0 +1,260 @@
+INFO:tensorflow:GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+I1205 10:28:56.296812 140225273993024 posit_config.py:59] GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/Conv
+I1205 10:28:56.315930 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/Conv
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/Conv/BatchNorm
+I1205 10:28:56.325565 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/Conv/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv/depthwise/BatchNorm
+I1205 10:28:56.353168 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv/depthwise/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv/project
+I1205 10:28:56.373584 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv/project
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv/project/BatchNorm
+I1205 10:28:56.382288 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv/project/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_1/expand
+I1205 10:28:56.450746 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_1/expand
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_1/expand/BatchNorm
+I1205 10:28:56.462162 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_1/expand/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_1/depthwise/BatchNorm
+I1205 10:28:56.494393 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_1/depthwise/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_1/project
+I1205 10:28:56.514925 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_1/project
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_1/project/BatchNorm
+I1205 10:28:56.524098 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_1/project/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_2/expand
+I1205 10:28:56.544976 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_2/expand
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_2/expand/BatchNorm
+I1205 10:28:56.553622 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_2/expand/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_2/depthwise/BatchNorm
+I1205 10:28:56.580951 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_2/depthwise/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_2/project
+I1205 10:28:56.601722 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_2/project
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_2/project/BatchNorm
+I1205 10:28:56.610427 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_2/project/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_3/expand
+I1205 10:28:56.631916 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_3/expand
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_3/expand/BatchNorm
+I1205 10:28:56.640608 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_3/expand/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_3/depthwise/BatchNorm
+I1205 10:28:56.668437 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_3/depthwise/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_3/project
+I1205 10:28:56.688804 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_3/project
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_3/project/BatchNorm
+I1205 10:28:56.697515 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_3/project/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_4/expand
+I1205 10:28:56.718497 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_4/expand
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_4/expand/BatchNorm
+I1205 10:28:56.727198 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_4/expand/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_4/depthwise/BatchNorm
+I1205 10:28:56.755872 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_4/depthwise/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_4/project
+I1205 10:28:56.776304 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_4/project
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_4/project/BatchNorm
+I1205 10:28:56.785086 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_4/project/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_5/expand
+I1205 10:28:56.806602 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_5/expand
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_5/expand/BatchNorm
+I1205 10:28:56.815236 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_5/expand/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_5/depthwise/BatchNorm
+I1205 10:28:56.843077 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_5/depthwise/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_5/project
+I1205 10:28:56.863428 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_5/project
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_5/project/BatchNorm
+I1205 10:28:56.872140 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_5/project/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_6/expand
+I1205 10:28:56.894205 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_6/expand
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_6/expand/BatchNorm
+I1205 10:28:56.902938 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_6/expand/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_6/depthwise/BatchNorm
+I1205 10:28:56.930342 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_6/depthwise/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_6/project
+I1205 10:28:56.950668 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_6/project
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_6/project/BatchNorm
+I1205 10:28:56.959383 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_6/project/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_7/expand
+I1205 10:28:56.980898 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_7/expand
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_7/expand/BatchNorm
+I1205 10:28:56.989606 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_7/expand/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_7/depthwise/BatchNorm
+I1205 10:28:57.016944 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_7/depthwise/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_7/project
+I1205 10:28:57.037402 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_7/project
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_7/project/BatchNorm
+I1205 10:28:57.046657 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_7/project/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_8/expand
+I1205 10:28:57.068259 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_8/expand
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_8/expand/BatchNorm
+I1205 10:28:57.077021 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_8/expand/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_8/depthwise/BatchNorm
+I1205 10:28:57.104449 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_8/depthwise/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_8/project
+I1205 10:28:57.125326 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_8/project
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_8/project/BatchNorm
+I1205 10:28:57.134055 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_8/project/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_9/expand
+I1205 10:28:57.155727 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_9/expand
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_9/expand/BatchNorm
+I1205 10:28:57.164410 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_9/expand/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_9/depthwise/BatchNorm
+I1205 10:28:57.192331 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_9/depthwise/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_9/project
+I1205 10:28:57.212716 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_9/project
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_9/project/BatchNorm
+I1205 10:28:57.221588 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_9/project/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_10/expand
+I1205 10:28:57.243187 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_10/expand
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_10/expand/BatchNorm
+I1205 10:28:57.251927 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_10/expand/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_10/depthwise/BatchNorm
+I1205 10:28:57.335657 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_10/depthwise/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_10/project
+I1205 10:28:57.364365 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_10/project
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_10/project/BatchNorm
+I1205 10:28:57.375176 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_10/project/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_11/expand
+I1205 10:28:57.398401 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_11/expand
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_11/expand/BatchNorm
+I1205 10:28:57.407294 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_11/expand/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_11/depthwise/BatchNorm
+I1205 10:28:57.435223 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_11/depthwise/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_11/project
+I1205 10:28:57.455771 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_11/project
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_11/project/BatchNorm
+I1205 10:28:57.464482 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_11/project/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_12/expand
+I1205 10:28:57.486612 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_12/expand
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_12/expand/BatchNorm
+I1205 10:28:57.495439 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_12/expand/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_12/depthwise/BatchNorm
+I1205 10:28:57.522890 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_12/depthwise/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_12/project
+I1205 10:28:57.543298 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_12/project
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_12/project/BatchNorm
+I1205 10:28:57.551993 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_12/project/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_13/expand
+I1205 10:28:57.574023 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_13/expand
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_13/expand/BatchNorm
+I1205 10:28:57.582802 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_13/expand/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_13/depthwise/BatchNorm
+I1205 10:28:57.610411 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_13/depthwise/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_13/project
+I1205 10:28:57.630777 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_13/project
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_13/project/BatchNorm
+I1205 10:28:57.640028 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_13/project/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_14/expand
+I1205 10:28:57.661126 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_14/expand
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_14/expand/BatchNorm
+I1205 10:28:57.669859 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_14/expand/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_14/depthwise/BatchNorm
+I1205 10:28:57.697379 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_14/depthwise/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_14/project
+I1205 10:28:57.718394 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_14/project
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_14/project/BatchNorm
+I1205 10:28:57.727125 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_14/project/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_15/expand
+I1205 10:28:57.748760 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_15/expand
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_15/expand/BatchNorm
+I1205 10:28:57.757448 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_15/expand/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_15/depthwise/BatchNorm
+I1205 10:28:57.785600 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_15/depthwise/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_15/project
+I1205 10:28:57.806159 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_15/project
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_15/project/BatchNorm
+I1205 10:28:57.814924 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_15/project/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_16/expand
+I1205 10:28:57.836581 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_16/expand
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_16/expand/BatchNorm
+I1205 10:28:57.845418 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_16/expand/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_16/depthwise/BatchNorm
+I1205 10:28:57.873374 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_16/depthwise/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_16/project
+I1205 10:28:57.893869 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_16/project
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_16/project/BatchNorm
+I1205 10:28:57.902612 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/expanded_conv_16/project/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/Conv_1
+I1205 10:28:57.923355 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/Conv_1
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/Conv_1/BatchNorm
+I1205 10:28:57.932127 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/Conv_1/BatchNorm
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/Logits/Dropout
+I1205 10:28:57.965122 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/Logits/Dropout
+INFO:tensorflow:Float dtype is being used at layer v/cg/MobilenetV2/Logits/Conv2d_1c_1x1
+I1205 10:28:57.971557 140225273993024 base_layer.py:700] Float dtype is being used at layer v/cg/MobilenetV2/Logits/Conv2d_1c_1x1
+WARNING:tensorflow:From /home/scott/Downloads/tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1803: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+W1205 10:29:00.649809 140225273993024 deprecation.py:305] From /home/scott/Downloads/tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1803: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+INFO:tensorflow:Running local_init_op.
+I1205 10:29:02.204248 140225273993024 session_manager.py:498] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I1205 10:29:02.271327 140225273993024 session_manager.py:500] Done running local_init_op.
+TensorFlow:  1.12
+Model:       mobilenet
+Dataset:     imagenet (synthetic)
+Mode:        training
+SingleSess:  False
+Batch size:  5 global
+             5.0 per device
+Num batches: 100
+Num epochs:  0.00
+Devices:     ['/cpu:0']
+Data format: NHWC
+Layout optimizer: False
+Optimizer:   rmsprop
+Variables:   parameter_server
+==========
+Generating model
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+is dilation set?(nn_ops.py 864) :False
+Saving graph to: tensorboard_out/alexnet/alex
+Running warm up
+Done warm up
+Step	Img/sec	total_loss
+1	images/sec: 7.4 +/- 0.0 (jitter = 0.0)	9.879
+10	images/sec: 7.3 +/- 0.1 (jitter = 0.3)	9.152
+20	images/sec: 7.4 +/- 0.1 (jitter = 0.2)	8.645
+30	images/sec: 7.5 +/- 0.1 (jitter = 0.3)	8.387
+40	images/sec: 7.5 +/- 0.0 (jitter = 0.3)	8.313
+50	images/sec: 7.6 +/- 0.0 (jitter = 0.3)	8.531
+60	images/sec: 7.6 +/- 0.0 (jitter = 0.2)	7.997
+70	images/sec: 7.6 +/- 0.0 (jitter = 0.2)	7.676
+80	images/sec: 7.6 +/- 0.0 (jitter = 0.2)	8.057
+90	images/sec: 7.7 +/- 0.0 (jitter = 0.2)	8.143
+100	images/sec: 7.7 +/- 0.0 (jitter = 0.2)	8.385
+----------------------------------------------------------------
+total images/sec: 7.67
+----------------------------------------------------------------

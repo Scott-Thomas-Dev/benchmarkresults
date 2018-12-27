@@ -1,0 +1,66 @@
+INFO:tensorflow:GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+I1205 10:16:44.984339 139625439971136 posit_config.py:59] GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+INFO:tensorflow:Float dtype is being used at layer conv2d_1
+I1205 10:16:45.002624 139625439971136 base_layer.py:700] Float dtype is being used at layer conv2d_1
+INFO:tensorflow:Float dtype is being used at layer mpool0
+I1205 10:16:45.015591 139625439971136 base_layer.py:700] Float dtype is being used at layer mpool0
+INFO:tensorflow:Float dtype is being used at layer conv2d_2
+I1205 10:16:45.016801 139625439971136 base_layer.py:700] Float dtype is being used at layer conv2d_2
+INFO:tensorflow:Float dtype is being used at layer mpool1
+I1205 10:16:45.028406 139625439971136 base_layer.py:700] Float dtype is being used at layer mpool1
+INFO:tensorflow:Float dtype is being used at layer conv2d_3
+I1205 10:16:45.029561 139625439971136 base_layer.py:700] Float dtype is being used at layer conv2d_3
+INFO:tensorflow:Float dtype is being used at layer conv2d_4
+I1205 10:16:45.041314 139625439971136 base_layer.py:700] Float dtype is being used at layer conv2d_4
+INFO:tensorflow:Float dtype is being used at layer conv2d_5
+I1205 10:16:45.052996 139625439971136 base_layer.py:700] Float dtype is being used at layer conv2d_5
+INFO:tensorflow:Float dtype is being used at layer mpool2
+I1205 10:16:45.064643 139625439971136 base_layer.py:700] Float dtype is being used at layer mpool2
+INFO:tensorflow:Float dtype is being used at layer dropout_1
+I1205 10:16:45.075442 139625439971136 base_layer.py:700] Float dtype is being used at layer dropout_1
+INFO:tensorflow:Float dtype is being used at layer dropout_2
+I1205 10:16:45.090388 139625439971136 base_layer.py:700] Float dtype is being used at layer dropout_2
+WARNING:tensorflow:From /home/scott/Downloads/tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1803: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+W1205 10:16:45.512708 139625439971136 deprecation.py:305] From /home/scott/Downloads/tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1803: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+INFO:tensorflow:Running local_init_op.
+I1205 10:16:50.581045 139625439971136 session_manager.py:498] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I1205 10:16:50.607407 139625439971136 session_manager.py:500] Done running local_init_op.
+TensorFlow:  1.12
+Model:       overfeat
+Dataset:     imagenet (synthetic)
+Mode:        training
+SingleSess:  False
+Batch size:  5 global
+             5.0 per device
+Num batches: 100
+Num epochs:  0.00
+Devices:     ['/cpu:0']
+Data format: NHWC
+Layout optimizer: False
+Optimizer:   rmsprop
+Variables:   parameter_server
+==========
+Generating model
+Saving graph to: tensorboard_out/alexnet/alex
+Running warm up
+Done warm up
+Step	Img/sec	total_loss
+1	images/sec: 4.0 +/- 0.0 (jitter = 0.0)	36586112679936.000
+10	images/sec: 4.2 +/- 0.0 (jitter = 0.0)	412552429568.000
+20	images/sec: 4.2 +/- 0.0 (jitter = 0.1)	260819337216.000
+30	images/sec: 4.2 +/- 0.0 (jitter = 0.1)	49848901632.000
+40	images/sec: 4.2 +/- 0.0 (jitter = 0.1)	20746868736.000
+50	images/sec: 4.1 +/- 0.0 (jitter = 0.1)	1480518400.000
+60	images/sec: 4.1 +/- 0.0 (jitter = 0.1)	81845240.000
+70	images/sec: 4.1 +/- 0.0 (jitter = 0.1)	39.076
+80	images/sec: 4.1 +/- 0.0 (jitter = 0.1)	39.405
+90	images/sec: 4.2 +/- 0.0 (jitter = 0.1)	39.245
+100	images/sec: 4.1 +/- 0.0 (jitter = 0.1)	39.046
+----------------------------------------------------------------
+total images/sec: 4.13
+----------------------------------------------------------------
