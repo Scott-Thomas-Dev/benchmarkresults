@@ -1,0 +1,86 @@
+INFO:tensorflow:GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+I1217 14:35:52.949989 139678520898880 posit_config.py:59] GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+INFO:tensorflow:GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+I1217 14:35:52.950294 139678520898880 posit_config.py:59] GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_1
+I1217 14:35:52.974363 139678520898880 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool0
+I1217 14:35:53.037593 139678520898880 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool0
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_2
+I1217 14:35:53.039130 139678520898880 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool1
+I1217 14:35:53.056880 139678520898880 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_3
+I1217 14:35:53.058284 139678520898880 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_3
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_4
+I1217 14:35:53.076637 139678520898880 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_4
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_5
+I1217 14:35:53.095259 139678520898880 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_5
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool2
+I1217 14:35:53.113089 139678520898880 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer dropout_1
+I1217 14:35:53.130742 139678520898880 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer dropout_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer dropout_2
+I1217 14:35:53.158653 139678520898880 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer dropout_2
+WARNING:tensorflow:From /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1801: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+W1217 14:35:53.724558 139678520898880 deprecation.py:305] From /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1801: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2018-12-17 14:35:54.896992: E tensorflow/stream_executor/cuda/cuda_driver.cc:300] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2018-12-17 14:35:54.897076: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:163] retrieving CUDA diagnostic information for host: gpu-merlin1
+2018-12-17 14:35:54.897087: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:170] hostname: gpu-merlin1
+2018-12-17 14:35:54.897146: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:194] libcuda reported version is: 390.48.0
+2018-12-17 14:35:54.897182: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:198] kernel reported version is: 390.48.0
+2018-12-17 14:35:54.897190: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:305] kernel version seems to match DSO: 390.48.0
+INFO:tensorflow:Running local_init_op.
+I1217 14:36:04.898146 139678520898880 session_manager.py:498] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I1217 14:36:05.017071 139678520898880 session_manager.py:500] Done running local_init_op.
+SINGLE THREADED BENCHMARK BEING RUN - BENCHMARK_CNN.PY LINE 615
+TensorFlow:  1.12
+Model:       alexnet
+Dataset:     imagenet (synthetic)
+Mode:        training
+SingleSess:  False
+Batch size:  5 global
+             5.0 per device
+Num batches: 100
+Num epochs:  0.00
+Devices:     ['/cpu:0']
+Data format: NHWC
+Layout optimizer: False
+Optimizer:   rmsprop
+Variables:   parameter_server
+==========
+Generating model
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+Saving graph to: tensorboard_out/alexnet/alex
+SINGLE THREADED BENCHMARK BEING RUN - BENCHMARK_CNN.PY LINE 615
+Running warm up
+Done warm up
+Step	Img/sec	total_loss
+1	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	27.641
+10	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	32.438
+20	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	16.578
+30	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	6.951
+40	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	6.590
+50	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	6.619
+60	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	6.625
+70	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	6.629
+80	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	6.625
+90	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	6.617
+100	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	6.613
+----------------------------------------------------------------
+total images/sec: 0.10
+----------------------------------------------------------------

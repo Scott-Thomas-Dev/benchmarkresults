@@ -1,0 +1,648 @@
+INFO:tensorflow:GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+I1217 22:30:14.302206 140327852246336 posit_config.py:59] GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+INFO:tensorflow:GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+I1217 22:30:14.302505 140327852246336 posit_config.py:59] GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_1
+I1217 22:30:14.326838 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv0/batchnorm0
+I1217 22:30:14.385330 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv0/batchnorm0
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_2
+I1217 22:30:14.408267 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv1/batchnorm1
+I1217 22:30:14.421147 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv1/batchnorm1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_3
+I1217 22:30:14.443619 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_3
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv2/batchnorm2
+I1217 22:30:14.456415 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv2/batchnorm2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool0
+I1217 22:30:14.479261 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool0
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_4
+I1217 22:30:14.480746 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_4
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv3/batchnorm3
+I1217 22:30:14.493557 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv3/batchnorm3
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_5
+I1217 22:30:14.516081 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_5
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv4/batchnorm4
+I1217 22:30:14.528875 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv4/batchnorm4
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool1
+I1217 22:30:14.551222 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_6
+I1217 22:30:14.552721 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_6
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv5/batchnorm5
+I1217 22:30:14.565507 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv5/batchnorm5
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_7
+I1217 22:30:14.588486 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_7
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv6/batchnorm6
+I1217 22:30:14.601494 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv6/batchnorm6
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_8
+I1217 22:30:14.624072 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_8
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv7/batchnorm7
+I1217 22:30:14.636893 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv7/batchnorm7
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_9
+I1217 22:30:14.659466 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_9
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv8/batchnorm8
+I1217 22:30:14.672286 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv8/batchnorm8
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_10
+I1217 22:30:14.695234 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_10
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv9/batchnorm9
+I1217 22:30:14.708117 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv9/batchnorm9
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_11
+I1217 22:30:14.730674 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_11
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv10/batchnorm10
+I1217 22:30:14.743538 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv10/batchnorm10
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer apool0
+I1217 22:30:14.765965 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer apool0
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_12
+I1217 22:30:14.767392 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_12
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv11/batchnorm11
+I1217 22:30:14.780209 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv11/batchnorm11
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_13
+I1217 22:30:14.804536 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_13
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv12/batchnorm12
+I1217 22:30:14.817391 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv12/batchnorm12
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_14
+I1217 22:30:14.839980 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_14
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv13/batchnorm13
+I1217 22:30:14.852793 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv13/batchnorm13
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_15
+I1217 22:30:14.875420 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_15
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv14/batchnorm14
+I1217 22:30:14.888200 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv14/batchnorm14
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_16
+I1217 22:30:14.911231 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_16
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv15/batchnorm15
+I1217 22:30:14.924044 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv15/batchnorm15
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_17
+I1217 22:30:14.946620 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_17
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv16/batchnorm16
+I1217 22:30:14.959472 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv16/batchnorm16
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_18
+I1217 22:30:14.986738 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_18
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv17/batchnorm17
+I1217 22:30:15.000354 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv17/batchnorm17
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer apool1
+I1217 22:30:15.023472 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer apool1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_19
+I1217 22:30:15.024915 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_19
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv18/batchnorm18
+I1217 22:30:15.037818 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv18/batchnorm18
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_20
+I1217 22:30:15.061868 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_20
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv19/batchnorm19
+I1217 22:30:15.074805 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv19/batchnorm19
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_21
+I1217 22:30:15.097496 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_21
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv20/batchnorm20
+I1217 22:30:15.110271 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv20/batchnorm20
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_22
+I1217 22:30:15.133382 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_22
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv21/batchnorm21
+I1217 22:30:15.146220 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv21/batchnorm21
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_23
+I1217 22:30:15.168907 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_23
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv22/batchnorm22
+I1217 22:30:15.181767 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv22/batchnorm22
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_24
+I1217 22:30:15.204401 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_24
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv23/batchnorm23
+I1217 22:30:15.217350 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv23/batchnorm23
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_25
+I1217 22:30:15.240398 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_25
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv24/batchnorm24
+I1217 22:30:15.253273 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv24/batchnorm24
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer apool2
+I1217 22:30:15.275876 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer apool2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_26
+I1217 22:30:15.277282 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_26
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv25/batchnorm25
+I1217 22:30:15.290125 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_a0/conv25/batchnorm25
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_27
+I1217 22:30:15.314096 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_27
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_b0/conv26/batchnorm26
+I1217 22:30:15.326977 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_b0/conv26/batchnorm26
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_28
+I1217 22:30:15.350076 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_28
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_b0/conv27/batchnorm27
+I1217 22:30:15.362860 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_b0/conv27/batchnorm27
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_29
+I1217 22:30:15.385520 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_29
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_b0/conv28/batchnorm28
+I1217 22:30:15.398335 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_b0/conv28/batchnorm28
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_30
+I1217 22:30:15.421011 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_30
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_b0/conv29/batchnorm29
+I1217 22:30:15.433839 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_b0/conv29/batchnorm29
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool2
+I1217 22:30:15.519984 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_31
+I1217 22:30:15.522847 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_31
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv30/batchnorm30
+I1217 22:30:15.536098 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv30/batchnorm30
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_32
+I1217 22:30:15.558817 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_32
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv31/batchnorm31
+I1217 22:30:15.571674 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv31/batchnorm31
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_33
+I1217 22:30:15.594368 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_33
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv32/batchnorm32
+I1217 22:30:15.607289 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv32/batchnorm32
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_34
+I1217 22:30:15.630408 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_34
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv33/batchnorm33
+I1217 22:30:15.643312 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv33/batchnorm33
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_35
+I1217 22:30:15.666068 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_35
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv34/batchnorm34
+I1217 22:30:15.678924 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv34/batchnorm34
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_36
+I1217 22:30:15.701623 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_36
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv35/batchnorm35
+I1217 22:30:15.714713 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv35/batchnorm35
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_37
+I1217 22:30:15.737828 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_37
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv36/batchnorm36
+I1217 22:30:15.750661 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv36/batchnorm36
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_38
+I1217 22:30:15.773537 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_38
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv37/batchnorm37
+I1217 22:30:15.786384 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv37/batchnorm37
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_39
+I1217 22:30:15.809075 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_39
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv38/batchnorm38
+I1217 22:30:15.821914 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv38/batchnorm38
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer apool3
+I1217 22:30:15.844941 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer apool3
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_40
+I1217 22:30:15.846361 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_40
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv39/batchnorm39
+I1217 22:30:15.859265 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv39/batchnorm39
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_41
+I1217 22:30:15.883335 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_41
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv40/batchnorm40
+I1217 22:30:15.896260 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv40/batchnorm40
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_42
+I1217 22:30:15.918956 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_42
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv41/batchnorm41
+I1217 22:30:15.931820 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv41/batchnorm41
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_43
+I1217 22:30:15.954974 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_43
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv42/batchnorm42
+I1217 22:30:15.967880 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv42/batchnorm42
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_44
+I1217 22:30:15.990604 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_44
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv43/batchnorm43
+I1217 22:30:16.003523 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv43/batchnorm43
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_45
+I1217 22:30:16.026258 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_45
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv44/batchnorm44
+I1217 22:30:16.039136 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv44/batchnorm44
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_46
+I1217 22:30:16.066718 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_46
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv45/batchnorm45
+I1217 22:30:16.080723 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv45/batchnorm45
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_47
+I1217 22:30:16.103706 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_47
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv46/batchnorm46
+I1217 22:30:16.116634 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv46/batchnorm46
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_48
+I1217 22:30:16.139526 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_48
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv47/batchnorm47
+I1217 22:30:16.152453 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv47/batchnorm47
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_49
+I1217 22:30:16.175710 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_49
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv48/batchnorm48
+I1217 22:30:16.188655 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv48/batchnorm48
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer apool4
+I1217 22:30:16.211379 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer apool4
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_50
+I1217 22:30:16.212848 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_50
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv49/batchnorm49
+I1217 22:30:16.225737 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv49/batchnorm49
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_51
+I1217 22:30:16.249979 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_51
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv50/batchnorm50
+I1217 22:30:16.262899 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv50/batchnorm50
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_52
+I1217 22:30:16.286116 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_52
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv51/batchnorm51
+I1217 22:30:16.298970 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv51/batchnorm51
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_53
+I1217 22:30:16.321858 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_53
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv52/batchnorm52
+I1217 22:30:16.334802 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv52/batchnorm52
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_54
+I1217 22:30:16.357664 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_54
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv53/batchnorm53
+I1217 22:30:16.370621 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv53/batchnorm53
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_55
+I1217 22:30:16.393843 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_55
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv54/batchnorm54
+I1217 22:30:16.406666 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv54/batchnorm54
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_56
+I1217 22:30:16.429470 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_56
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv55/batchnorm55
+I1217 22:30:16.442421 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv55/batchnorm55
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_57
+I1217 22:30:16.465222 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_57
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv56/batchnorm56
+I1217 22:30:16.478169 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv56/batchnorm56
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_58
+I1217 22:30:16.501548 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_58
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv57/batchnorm57
+I1217 22:30:16.514465 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv57/batchnorm57
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_59
+I1217 22:30:16.537353 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_59
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv58/batchnorm58
+I1217 22:30:16.550284 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv58/batchnorm58
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer apool5
+I1217 22:30:16.573031 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer apool5
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_60
+I1217 22:30:16.574453 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_60
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv59/batchnorm59
+I1217 22:30:16.587361 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv59/batchnorm59
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_61
+I1217 22:30:16.611962 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_61
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv60/batchnorm60
+I1217 22:30:16.624915 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv60/batchnorm60
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_62
+I1217 22:30:16.647848 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_62
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv61/batchnorm61
+I1217 22:30:16.660737 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv61/batchnorm61
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_63
+I1217 22:30:16.683640 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_63
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv62/batchnorm62
+I1217 22:30:16.696573 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv62/batchnorm62
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_64
+I1217 22:30:16.797649 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_64
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv63/batchnorm63
+I1217 22:30:16.811238 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv63/batchnorm63
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_65
+I1217 22:30:16.834240 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_65
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv64/batchnorm64
+I1217 22:30:16.847145 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv64/batchnorm64
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_66
+I1217 22:30:16.870035 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_66
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv65/batchnorm65
+I1217 22:30:16.883164 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv65/batchnorm65
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_67
+I1217 22:30:16.906386 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_67
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv66/batchnorm66
+I1217 22:30:16.919513 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv66/batchnorm66
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_68
+I1217 22:30:16.942367 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_68
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv67/batchnorm67
+I1217 22:30:16.955296 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv67/batchnorm67
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_69
+I1217 22:30:16.978146 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_69
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv68/batchnorm68
+I1217 22:30:16.991093 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv68/batchnorm68
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer apool6
+I1217 22:30:17.014284 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer apool6
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_70
+I1217 22:30:17.015716 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_70
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv69/batchnorm69
+I1217 22:30:17.028697 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_c0/conv69/batchnorm69
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_71
+I1217 22:30:17.052964 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_71
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_d0/conv70/batchnorm70
+I1217 22:30:17.065912 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_d0/conv70/batchnorm70
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_72
+I1217 22:30:17.088819 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_72
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_d0/conv71/batchnorm71
+I1217 22:30:17.101752 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_d0/conv71/batchnorm71
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_73
+I1217 22:30:17.125056 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_73
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_d0/conv72/batchnorm72
+I1217 22:30:17.138025 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_d0/conv72/batchnorm72
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_74
+I1217 22:30:17.160951 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_74
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_d0/conv73/batchnorm73
+I1217 22:30:17.173869 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_d0/conv73/batchnorm73
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_75
+I1217 22:30:17.196856 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_75
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_d0/conv74/batchnorm74
+I1217 22:30:17.209727 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_d0/conv74/batchnorm74
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_76
+I1217 22:30:17.233018 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_76
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_d0/conv75/batchnorm75
+I1217 22:30:17.245934 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_d0/conv75/batchnorm75
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool3
+I1217 22:30:17.268712 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool3
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_77
+I1217 22:30:17.271517 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_77
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv76/batchnorm76
+I1217 22:30:17.284422 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv76/batchnorm76
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_78
+I1217 22:30:17.307888 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_78
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv77/batchnorm77
+I1217 22:30:17.320760 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv77/batchnorm77
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_79
+I1217 22:30:17.344063 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_79
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv78/batchnorm78
+I1217 22:30:17.357016 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv78/batchnorm78
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_80
+I1217 22:30:17.379881 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_80
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv79/batchnorm79
+I1217 22:30:17.392798 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv79/batchnorm79
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_81
+I1217 22:30:17.415713 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_81
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv80/batchnorm80
+I1217 22:30:17.428628 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv80/batchnorm80
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_82
+I1217 22:30:17.456732 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_82
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv81/batchnorm81
+I1217 22:30:17.470785 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv81/batchnorm81
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_83
+I1217 22:30:17.493982 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_83
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv82/batchnorm82
+I1217 22:30:17.506985 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv82/batchnorm82
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_84
+I1217 22:30:17.530000 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_84
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv83/batchnorm83
+I1217 22:30:17.542932 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv83/batchnorm83
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer apool7
+I1217 22:30:17.566240 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer apool7
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_85
+I1217 22:30:17.567745 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_85
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv84/batchnorm84
+I1217 22:30:17.580648 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv84/batchnorm84
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_86
+I1217 22:30:17.605153 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_86
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv85/batchnorm85
+I1217 22:30:17.618177 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv85/batchnorm85
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_87
+I1217 22:30:17.641162 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_87
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv86/batchnorm86
+I1217 22:30:17.654092 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv86/batchnorm86
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_88
+I1217 22:30:17.677516 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_88
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv87/batchnorm87
+I1217 22:30:17.690484 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv87/batchnorm87
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_89
+I1217 22:30:17.713512 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_89
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv88/batchnorm88
+I1217 22:30:17.726412 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv88/batchnorm88
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_90
+I1217 22:30:17.749364 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_90
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv89/batchnorm89
+I1217 22:30:17.762275 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv89/batchnorm89
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_91
+I1217 22:30:17.785713 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_91
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv90/batchnorm90
+I1217 22:30:17.798682 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv90/batchnorm90
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_92
+I1217 22:30:17.821673 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_92
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv91/batchnorm91
+I1217 22:30:17.834606 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv91/batchnorm91
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_93
+I1217 22:30:17.857583 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_93
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv92/batchnorm92
+I1217 22:30:17.870490 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv92/batchnorm92
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool4
+I1217 22:30:17.893779 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool4
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_94
+I1217 22:30:17.895287 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_94
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv93/batchnorm93
+I1217 22:30:17.908271 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/incept_v3_e0/conv93/batchnorm93
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer apool8
+I1217 22:30:17.932563 140327852246336 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer apool8
+WARNING:tensorflow:From /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1801: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+W1217 22:30:23.830260 140327852246336 deprecation.py:305] From /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1801: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2018-12-17 22:30:25.903771: E tensorflow/stream_executor/cuda/cuda_driver.cc:300] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2018-12-17 22:30:25.903891: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:163] retrieving CUDA diagnostic information for host: gpu-merlin1
+2018-12-17 22:30:25.903902: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:170] hostname: gpu-merlin1
+2018-12-17 22:30:25.903952: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:194] libcuda reported version is: 390.48.0
+2018-12-17 22:30:25.903986: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:198] kernel reported version is: 390.48.0
+2018-12-17 22:30:25.903994: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:305] kernel version seems to match DSO: 390.48.0
+INFO:tensorflow:Running local_init_op.
+I1217 22:30:34.139292 140327852246336 session_manager.py:498] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I1217 22:30:34.427971 140327852246336 session_manager.py:500] Done running local_init_op.
+SINGLE THREADED BENCHMARK BEING RUN - BENCHMARK_CNN.PY LINE 615
+TensorFlow:  1.12
+Model:       inception3
+Dataset:     imagenet (synthetic)
+Mode:        training
+SingleSess:  False
+Batch size:  5 global
+             5.0 per device
+Num batches: 100
+Num epochs:  0.00
+Devices:     ['/cpu:0']
+Data format: NHWC
+Layout optimizer: False
+Optimizer:   rmsprop
+Variables:   parameter_server
+==========
+Generating model
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+Saving graph to: tensorboard_out/alexnet/alex
+SINGLE THREADED BENCHMARK BEING RUN - BENCHMARK_CNN.PY LINE 615
+Running warm up
+Done warm up
+Step	Img/sec	total_loss
+1	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2688.000
+10	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2688.000
+20	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2688.000
+30	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2688.000
+40	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2688.000
+50	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2688.000
+60	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2704.000
+70	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2688.000
+80	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2688.000
+90	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2688.000
+100	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2688.000
+----------------------------------------------------------------
+total images/sec: 0.01
+----------------------------------------------------------------

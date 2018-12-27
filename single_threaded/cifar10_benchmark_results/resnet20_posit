@@ -1,0 +1,180 @@
+INFO:tensorflow:GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+I1219 21:46:15.423663 140216074458432 posit_config.py:59] GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+INFO:tensorflow:GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+I1219 21:46:15.423879 140216074458432 posit_config.py:59] GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_1
+I1219 21:46:15.447959 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv0/batchnorm0
+I1219 21:46:15.505505 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv0/batchnorm0
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_2
+I1219 21:46:15.530698 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv1/batchnorm1
+I1219 21:46:15.543446 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv1/batchnorm1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_3
+I1219 21:46:15.568728 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_3
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv2/batchnorm2
+I1219 21:46:15.582802 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv2/batchnorm2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_4
+I1219 21:46:15.614274 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_4
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv3/batchnorm3
+I1219 21:46:15.628025 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv3/batchnorm3
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_5
+I1219 21:46:15.653320 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_5
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv4/batchnorm4
+I1219 21:46:15.666078 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv4/batchnorm4
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_6
+I1219 21:46:15.692693 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_6
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv5/batchnorm5
+I1219 21:46:15.705954 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv5/batchnorm5
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_7
+I1219 21:46:15.731272 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_7
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv6/batchnorm6
+I1219 21:46:15.743961 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv6/batchnorm6
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer apool0
+I1219 21:46:15.770444 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer apool0
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_8
+I1219 21:46:15.773392 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_8
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv7/batchnorm7
+I1219 21:46:15.786160 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv7/batchnorm7
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_9
+I1219 21:46:15.811455 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_9
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv8/batchnorm8
+I1219 21:46:15.824595 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv8/batchnorm8
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_10
+I1219 21:46:15.851628 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_10
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv9/batchnorm9
+I1219 21:46:15.864764 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv9/batchnorm9
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_11
+I1219 21:46:15.890160 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_11
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv10/batchnorm10
+I1219 21:46:15.902902 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv10/batchnorm10
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_12
+I1219 21:46:15.929593 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_12
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv11/batchnorm11
+I1219 21:46:15.942809 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv11/batchnorm11
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_13
+I1219 21:46:15.968052 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_13
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv12/batchnorm12
+I1219 21:46:15.980850 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv12/batchnorm12
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer apool1
+I1219 21:46:16.007376 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer apool1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_14
+I1219 21:46:16.010204 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_14
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv13/batchnorm13
+I1219 21:46:16.022888 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv13/batchnorm13
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_15
+I1219 21:46:16.048160 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_15
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv14/batchnorm14
+I1219 21:46:16.061383 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv14/batchnorm14
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_16
+I1219 21:46:16.088475 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_16
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv15/batchnorm15
+I1219 21:46:16.101869 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv15/batchnorm15
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_17
+I1219 21:46:16.128340 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_17
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv16/batchnorm16
+I1219 21:46:16.141094 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv16/batchnorm16
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_18
+I1219 21:46:16.167041 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_18
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv17/batchnorm17
+I1219 21:46:16.180142 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv17/batchnorm17
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_19
+I1219 21:46:16.205464 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_19
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv18/batchnorm18
+I1219 21:46:16.218265 140216074458432 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv18/batchnorm18
+WARNING:tensorflow:From /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1801: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+W1219 21:46:17.969182 140216074458432 deprecation.py:305] From /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1801: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2018-12-19 21:46:19.424116: E tensorflow/stream_executor/cuda/cuda_driver.cc:300] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2018-12-19 21:46:19.424204: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:163] retrieving CUDA diagnostic information for host: gpu-merlin1
+2018-12-19 21:46:19.424226: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:170] hostname: gpu-merlin1
+2018-12-19 21:46:19.424289: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:194] libcuda reported version is: 390.48.0
+2018-12-19 21:46:19.424324: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:198] kernel reported version is: 390.48.0
+2018-12-19 21:46:19.424332: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:305] kernel version seems to match DSO: 390.48.0
+INFO:tensorflow:Running local_init_op.
+I1219 21:46:20.364994 140216074458432 session_manager.py:498] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I1219 21:46:20.429963 140216074458432 session_manager.py:500] Done running local_init_op.
+INFO:tensorflow:Starting standard services.
+I1219 21:46:20.525454 140216074458432 supervisor.py:733] Starting standard services.
+WARNING:tensorflow:Standard services need a 'logdir' passed to the SessionManager
+W1219 21:46:20.525601 140216074458432 supervisor.py:668] Standard services need a 'logdir' passed to the SessionManager
+INFO:tensorflow:Starting queue runners.
+I1219 21:46:20.525662 140216074458432 supervisor.py:740] Starting queue runners.
+SINGLE THREAD MODE ENABLED FOR TESTING STILLWATER POSIT
+TensorFlow:  1.12
+Model:       resnet20
+Dataset:     cifar10 (synthetic)
+Mode:        training
+SingleSess:  False
+Batch size:  5 global
+             5.0 per device
+Num batches: 100
+Num epochs:  0.01
+Devices:     ['/cpu:0']
+Data format: NHWC
+Layout optimizer: False
+Optimizer:   rmsprop
+Variables:   parameter_server
+==========
+Generating model
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+Saving graph to: tensorboard_out/alexnet/alex
+SINGLE THREAD MODE ENABLED FOR TESTING STILLWATER POSIT
+Running warm up
+Done warm up
+Step	Img/sec	total_loss
+1	images/sec: 1.2 +/- 0.0 (jitter = 0.0)	67108864.000
+10	images/sec: 1.4 +/- 0.0 (jitter = 0.0)	67108864.000
+20	images/sec: 1.5 +/- 0.0 (jitter = 0.1)	67108864.000
+30	images/sec: 1.5 +/- 0.0 (jitter = 0.1)	67108864.000
+40	images/sec: 1.5 +/- 0.0 (jitter = 0.1)	67108864.000
+50	images/sec: 1.5 +/- 0.0 (jitter = 0.1)	67108864.000
+60	images/sec: 1.6 +/- 0.0 (jitter = 0.1)	67108864.000
+70	images/sec: 1.6 +/- 0.0 (jitter = 0.1)	2688.000
+80	images/sec: 1.6 +/- 0.0 (jitter = 0.2)	2688.000
+90	images/sec: 1.7 +/- 0.0 (jitter = 0.3)	2688.000
+100	images/sec: 1.7 +/- 0.0 (jitter = 0.2)	2688.000
+----------------------------------------------------------------
+total images/sec: 1.68
+----------------------------------------------------------------

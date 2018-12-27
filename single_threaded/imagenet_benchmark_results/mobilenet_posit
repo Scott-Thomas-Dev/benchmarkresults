@@ -1,0 +1,306 @@
+INFO:tensorflow:GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+I1218 23:11:08.768889 140268852487488 posit_config.py:59] GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+INFO:tensorflow:GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+I1218 23:11:08.769178 140268852487488 posit_config.py:59] GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/Conv
+I1218 23:11:08.794319 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/Conv
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/Conv/BatchNorm
+I1218 23:11:08.854388 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/Conv/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv/depthwise/BatchNorm
+I1218 23:11:08.890571 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv/depthwise/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv/project
+I1218 23:11:08.922465 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv/project
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv/project/BatchNorm
+I1218 23:11:08.937344 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv/project/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_1/expand
+I1218 23:11:08.965025 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_1/expand
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_1/expand/BatchNorm
+I1218 23:11:08.979164 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_1/expand/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_1/depthwise/BatchNorm
+I1218 23:11:09.015298 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_1/depthwise/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_1/project
+I1218 23:11:09.042049 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_1/project
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_1/project/BatchNorm
+I1218 23:11:09.056297 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_1/project/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_2/expand
+I1218 23:11:09.084769 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_2/expand
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_2/expand/BatchNorm
+I1218 23:11:09.099533 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_2/expand/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_2/depthwise/BatchNorm
+I1218 23:11:09.136017 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_2/depthwise/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_2/project
+I1218 23:11:09.162802 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_2/project
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_2/project/BatchNorm
+I1218 23:11:09.176958 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_2/project/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_3/expand
+I1218 23:11:09.205146 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_3/expand
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_3/expand/BatchNorm
+I1218 23:11:09.220709 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_3/expand/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_3/depthwise/BatchNorm
+I1218 23:11:09.262255 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_3/depthwise/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_3/project
+I1218 23:11:09.293663 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_3/project
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_3/project/BatchNorm
+I1218 23:11:09.310276 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_3/project/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_4/expand
+I1218 23:11:09.343040 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_4/expand
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_4/expand/BatchNorm
+I1218 23:11:09.359613 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_4/expand/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_4/depthwise/BatchNorm
+I1218 23:11:09.401086 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_4/depthwise/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_4/project
+I1218 23:11:09.432472 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_4/project
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_4/project/BatchNorm
+I1218 23:11:09.449542 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_4/project/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_5/expand
+I1218 23:11:09.482660 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_5/expand
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_5/expand/BatchNorm
+I1218 23:11:09.499188 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_5/expand/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_5/depthwise/BatchNorm
+I1218 23:11:09.540684 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_5/depthwise/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_5/project
+I1218 23:11:09.572603 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_5/project
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_5/project/BatchNorm
+I1218 23:11:09.589158 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_5/project/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_6/expand
+I1218 23:11:09.622078 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_6/expand
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_6/expand/BatchNorm
+I1218 23:11:09.638680 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_6/expand/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_6/depthwise/BatchNorm
+I1218 23:11:09.680644 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_6/depthwise/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_6/project
+I1218 23:11:09.712117 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_6/project
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_6/project/BatchNorm
+I1218 23:11:09.728627 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_6/project/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_7/expand
+I1218 23:11:09.760974 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_7/expand
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_7/expand/BatchNorm
+I1218 23:11:09.777589 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_7/expand/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_7/depthwise/BatchNorm
+I1218 23:11:09.819739 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_7/depthwise/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_7/project
+I1218 23:11:09.851153 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_7/project
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_7/project/BatchNorm
+I1218 23:11:09.867782 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_7/project/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_8/expand
+I1218 23:11:09.900705 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_8/expand
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_8/expand/BatchNorm
+I1218 23:11:09.986332 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_8/expand/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_8/depthwise/BatchNorm
+I1218 23:11:10.028266 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_8/depthwise/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_8/project
+I1218 23:11:10.059780 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_8/project
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_8/project/BatchNorm
+I1218 23:11:10.076436 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_8/project/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_9/expand
+I1218 23:11:10.110163 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_9/expand
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_9/expand/BatchNorm
+I1218 23:11:10.126772 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_9/expand/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_9/depthwise/BatchNorm
+I1218 23:11:10.167268 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_9/depthwise/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_9/project
+I1218 23:11:10.197763 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_9/project
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_9/project/BatchNorm
+I1218 23:11:10.214487 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_9/project/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_10/expand
+I1218 23:11:10.247122 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_10/expand
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_10/expand/BatchNorm
+I1218 23:11:10.263288 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_10/expand/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_10/depthwise/BatchNorm
+I1218 23:11:10.303890 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_10/depthwise/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_10/project
+I1218 23:11:10.334949 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_10/project
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_10/project/BatchNorm
+I1218 23:11:10.351085 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_10/project/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_11/expand
+I1218 23:11:10.382554 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_11/expand
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_11/expand/BatchNorm
+I1218 23:11:10.398621 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_11/expand/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_11/depthwise/BatchNorm
+I1218 23:11:10.439600 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_11/depthwise/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_11/project
+I1218 23:11:10.470136 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_11/project
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_11/project/BatchNorm
+I1218 23:11:10.486395 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_11/project/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_12/expand
+I1218 23:11:10.518410 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_12/expand
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_12/expand/BatchNorm
+I1218 23:11:10.534650 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_12/expand/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_12/depthwise/BatchNorm
+I1218 23:11:10.575713 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_12/depthwise/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_12/project
+I1218 23:11:10.606477 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_12/project
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_12/project/BatchNorm
+I1218 23:11:10.622638 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_12/project/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_13/expand
+I1218 23:11:10.654921 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_13/expand
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_13/expand/BatchNorm
+I1218 23:11:10.671530 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_13/expand/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_13/depthwise/BatchNorm
+I1218 23:11:10.712046 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_13/depthwise/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_13/project
+I1218 23:11:10.742656 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_13/project
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_13/project/BatchNorm
+I1218 23:11:10.758861 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_13/project/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_14/expand
+I1218 23:11:10.790772 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_14/expand
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_14/expand/BatchNorm
+I1218 23:11:10.806947 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_14/expand/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_14/depthwise/BatchNorm
+I1218 23:11:10.847434 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_14/depthwise/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_14/project
+I1218 23:11:10.878079 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_14/project
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_14/project/BatchNorm
+I1218 23:11:10.894759 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_14/project/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_15/expand
+I1218 23:11:10.926988 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_15/expand
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_15/expand/BatchNorm
+I1218 23:11:10.943142 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_15/expand/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_15/depthwise/BatchNorm
+I1218 23:11:10.988434 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_15/depthwise/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_15/project
+I1218 23:11:11.021224 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_15/project
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_15/project/BatchNorm
+I1218 23:11:11.037999 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_15/project/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_16/expand
+I1218 23:11:11.070562 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_16/expand
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_16/expand/BatchNorm
+I1218 23:11:11.086822 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_16/expand/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_16/depthwise/BatchNorm
+I1218 23:11:11.128041 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_16/depthwise/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_16/project
+I1218 23:11:11.158812 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_16/project
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_16/project/BatchNorm
+I1218 23:11:11.174986 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/expanded_conv_16/project/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/Conv_1
+I1218 23:11:11.205991 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/Conv_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/Conv_1/BatchNorm
+I1218 23:11:11.222104 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/Conv_1/BatchNorm
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/Logits/Dropout
+I1218 23:11:11.356867 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/Logits/Dropout
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/Logits/Conv2d_1c_1x1
+I1218 23:11:11.366085 140268852487488 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/MobilenetV2/Logits/Conv2d_1c_1x1
+WARNING:tensorflow:From /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1801: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+W1218 23:11:15.913821 140268852487488 deprecation.py:305] From /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1801: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2018-12-18 23:11:17.760126: E tensorflow/stream_executor/cuda/cuda_driver.cc:300] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2018-12-18 23:11:17.760208: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:163] retrieving CUDA diagnostic information for host: gpu-merlin1
+2018-12-18 23:11:17.760229: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:170] hostname: gpu-merlin1
+2018-12-18 23:11:17.760288: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:194] libcuda reported version is: 390.48.0
+2018-12-18 23:11:17.760326: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:198] kernel reported version is: 390.48.0
+2018-12-18 23:11:17.760344: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:305] kernel version seems to match DSO: 390.48.0
+INFO:tensorflow:Running local_init_op.
+I1218 23:11:20.215254 140268852487488 session_manager.py:498] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I1218 23:11:20.375708 140268852487488 session_manager.py:500] Done running local_init_op.
+SINGLE THREAD MODE ENABLED FOR TESTING STILLWATER POSIT
+TensorFlow:  1.12
+Model:       mobilenet
+Dataset:     imagenet (synthetic)
+Mode:        training
+SingleSess:  False
+Batch size:  5 global
+             5.0 per device
+Num batches: 100
+Num epochs:  0.00
+Devices:     ['/cpu:0']
+Data format: NHWC
+Layout optimizer: False
+Optimizer:   rmsprop
+Variables:   parameter_server
+==========
+Generating model
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+Saving graph to: tensorboard_out/alexnet/alex
+SINGLE THREAD MODE ENABLED FOR TESTING STILLWATER POSIT
+Running warm up
+Done warm up
+Step	Img/sec	total_loss
+1	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	40.062
+10	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	94.000
+20	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	93.125
+30	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	92.250
+40	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	93.500
+50	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	92.250
+60	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	92.125
+70	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	91.875
+80	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	92.000
+90	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	92.250
+100	images/sec: 0.1 +/- 0.0 (jitter = 0.0)	91.500
+----------------------------------------------------------------
+total images/sec: 0.08
+----------------------------------------------------------------

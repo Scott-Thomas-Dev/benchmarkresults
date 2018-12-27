@@ -1,0 +1,74 @@
+INFO:tensorflow:GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+I1219 21:42:08.824663 140717423969600 posit_config.py:59] GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+INFO:tensorflow:GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+I1219 21:42:08.824966 140717423969600 posit_config.py:59] GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_1
+I1219 21:42:08.849155 140717423969600 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool0
+I1219 21:42:08.912182 140717423969600 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool0
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer conv2d_2
+I1219 21:42:08.914515 140717423969600 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer conv2d_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer mpool1
+I1219 21:42:08.932286 140717423969600 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer mpool1
+WARNING:tensorflow:From /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1801: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+W1219 21:42:09.343391 140717423969600 deprecation.py:305] From /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1801: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2018-12-19 21:42:10.454766: E tensorflow/stream_executor/cuda/cuda_driver.cc:300] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2018-12-19 21:42:10.454849: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:163] retrieving CUDA diagnostic information for host: gpu-merlin1
+2018-12-19 21:42:10.454859: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:170] hostname: gpu-merlin1
+2018-12-19 21:42:10.454968: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:194] libcuda reported version is: 390.48.0
+2018-12-19 21:42:10.455011: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:198] kernel reported version is: 390.48.0
+2018-12-19 21:42:10.455020: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:305] kernel version seems to match DSO: 390.48.0
+INFO:tensorflow:Running local_init_op.
+I1219 21:42:10.813451 140717423969600 session_manager.py:498] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I1219 21:42:10.857311 140717423969600 session_manager.py:500] Done running local_init_op.
+INFO:tensorflow:Starting standard services.
+I1219 21:42:10.878563 140717423969600 supervisor.py:733] Starting standard services.
+WARNING:tensorflow:Standard services need a 'logdir' passed to the SessionManager
+W1219 21:42:10.878655 140717423969600 supervisor.py:668] Standard services need a 'logdir' passed to the SessionManager
+INFO:tensorflow:Starting queue runners.
+I1219 21:42:10.878715 140717423969600 supervisor.py:740] Starting queue runners.
+SINGLE THREAD MODE ENABLED FOR TESTING STILLWATER POSIT
+TensorFlow:  1.12
+Model:       alexnet
+Dataset:     cifar10 (synthetic)
+Mode:        training
+SingleSess:  False
+Batch size:  5 global
+             5.0 per device
+Num batches: 100
+Num epochs:  0.01
+Devices:     ['/cpu:0']
+Data format: NHWC
+Layout optimizer: False
+Optimizer:   rmsprop
+Variables:   parameter_server
+==========
+Generating model
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+Saving graph to: tensorboard_out/alexnet/alex
+SINGLE THREAD MODE ENABLED FOR TESTING STILLWATER POSIT
+Running warm up
+Done warm up
+Step	Img/sec	total_loss
+1	images/sec: 2.2 +/- 0.0 (jitter = 0.0)	7.277
+10	images/sec: 2.0 +/- 0.1 (jitter = 0.2)	1096.000
+20	images/sec: 2.1 +/- 0.0 (jitter = 0.1)	8.707
+30	images/sec: 2.2 +/- 0.0 (jitter = 0.0)	10.434
+40	images/sec: 2.2 +/- 0.0 (jitter = 0.0)	11.203
+50	images/sec: 2.2 +/- 0.0 (jitter = 0.0)	10.559
+60	images/sec: 2.2 +/- 0.0 (jitter = 0.0)	10.414
+70	images/sec: 2.3 +/- 0.0 (jitter = 0.0)	10.582
+80	images/sec: 2.3 +/- 0.0 (jitter = 0.0)	10.449
+90	images/sec: 2.3 +/- 0.0 (jitter = 0.1)	10.758
+100	images/sec: 2.4 +/- 0.0 (jitter = 0.1)	10.625
+----------------------------------------------------------------
+total images/sec: 2.36
+----------------------------------------------------------------

@@ -1,0 +1,1034 @@
+INFO:tensorflow:GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+I1218 08:50:58.062251 139901333611840 posit_config.py:59] GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+INFO:tensorflow:GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+I1218 08:50:58.062543 139901333611840 posit_config.py:59] GPU memory being set to 0 allocation, disable posit at estimator level to regain gpu memory
+INFO:tensorflow:input_image_shape: (5, 224, 224, 3)
+I1218 08:50:58.087092 139901333611840 nasnet_model.py:542] input_image_shape: (5, 224, 224, 3)
+2018-12-18 08:50:59.184941: E tensorflow/stream_executor/cuda/cuda_driver.cc:300] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2018-12-18 08:50:59.185028: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:163] retrieving CUDA diagnostic information for host: gpu-merlin1
+2018-12-18 08:50:59.185039: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:170] hostname: gpu-merlin1
+2018-12-18 08:50:59.185154: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:194] libcuda reported version is: 390.48.0
+2018-12-18 08:50:59.185194: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:198] kernel reported version is: 390.48.0
+2018-12-18 08:50:59.185203: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:305] kernel version seems to match DSO: 390.48.0
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv0
+I1218 08:50:59.186905 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv0
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/conv0_bn
+I1218 08:50:59.258317 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/conv0_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/1x1
+I1218 08:50:59.283605 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/beginning_bn
+I1218 08:50:59.303272 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/beginning_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_0/left/separable_5x5_1
+I1218 08:50:59.330103 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_0/left/bn_sep_5x5_1
+I1218 08:50:59.356359 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_0/left/separable_5x5_2
+I1218 08:50:59.381373 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_0/left/bn_sep_5x5_2
+I1218 08:50:59.406696 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_0/right/separable_7x7_1
+I1218 08:50:59.431890 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_0/right/separable_7x7_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_0/right/bn_sep_7x7_1
+I1218 08:50:59.457647 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_0/right/bn_sep_7x7_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_0/right/separable_7x7_2
+I1218 08:50:59.482972 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_0/right/separable_7x7_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_0/right/bn_sep_7x7_2
+I1218 08:50:59.508756 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_0/right/bn_sep_7x7_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer max_pooling2d_1
+I1218 08:50:59.534226 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer max_pooling2d_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_1/right/separable_7x7_1
+I1218 08:50:59.536684 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_1/right/separable_7x7_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_1/right/bn_sep_7x7_1
+I1218 08:50:59.562775 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_1/right/bn_sep_7x7_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_1/right/separable_7x7_2
+I1218 08:50:59.588040 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_1/right/separable_7x7_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_1/right/bn_sep_7x7_2
+I1218 08:50:59.613495 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_1/right/bn_sep_7x7_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_1
+I1218 08:50:59.638820 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_2/right/separable_5x5_1
+I1218 08:50:59.641235 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_2/right/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_2/right/bn_sep_5x5_1
+I1218 08:50:59.667336 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_2/right/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_2/right/separable_5x5_2
+I1218 08:50:59.692542 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_2/right/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_2/right/bn_sep_5x5_2
+I1218 08:50:59.717965 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_2/right/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_2
+I1218 08:50:59.743401 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_4/left/separable_3x3_1
+I1218 08:50:59.746601 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_4/left/bn_sep_3x3_1
+I1218 08:50:59.773070 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_4/left/separable_3x3_2
+I1218 08:50:59.797893 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_4/left/bn_sep_3x3_2
+I1218 08:50:59.822627 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_0/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer max_pooling2d_2
+I1218 08:50:59.846535 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer max_pooling2d_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/path1_conv
+I1218 08:50:59.852010 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/path1_conv
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/path2_conv
+I1218 08:50:59.876654 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/path2_conv
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/final_path_bn
+I1218 08:50:59.896937 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/final_path_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/1x1
+I1218 08:50:59.921314 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/beginning_bn
+I1218 08:50:59.940448 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/beginning_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_0/left/separable_5x5_1
+I1218 08:50:59.966680 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_0/left/bn_sep_5x5_1
+I1218 08:50:59.990443 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_0/left/separable_5x5_2
+I1218 08:51:00.014774 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_0/left/bn_sep_5x5_2
+I1218 08:51:00.037932 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_0/right/separable_7x7_1
+I1218 08:51:00.060983 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_0/right/separable_7x7_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_0/right/bn_sep_7x7_1
+I1218 08:51:00.084901 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_0/right/bn_sep_7x7_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_0/right/separable_7x7_2
+I1218 08:51:00.107575 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_0/right/separable_7x7_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_0/right/bn_sep_7x7_2
+I1218 08:51:00.130644 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_0/right/bn_sep_7x7_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer max_pooling2d_3
+I1218 08:51:00.153623 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer max_pooling2d_3
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_1/right/separable_7x7_1
+I1218 08:51:00.155806 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_1/right/separable_7x7_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_1/right/bn_sep_7x7_1
+I1218 08:51:00.179598 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_1/right/bn_sep_7x7_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_1/right/separable_7x7_2
+I1218 08:51:00.202324 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_1/right/separable_7x7_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_1/right/bn_sep_7x7_2
+I1218 08:51:00.225497 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_1/right/bn_sep_7x7_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_3
+I1218 08:51:00.248495 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_3
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_2/right/separable_5x5_1
+I1218 08:51:00.250647 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_2/right/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_2/right/bn_sep_5x5_1
+I1218 08:51:00.341050 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_2/right/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_2/right/separable_5x5_2
+I1218 08:51:00.364137 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_2/right/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_2/right/bn_sep_5x5_2
+I1218 08:51:00.387327 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_2/right/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_4
+I1218 08:51:00.410741 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_4
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_4/left/separable_3x3_1
+I1218 08:51:00.413766 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_4/left/bn_sep_3x3_1
+I1218 08:51:00.437379 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_4/left/separable_3x3_2
+I1218 08:51:00.460117 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_4/left/bn_sep_3x3_2
+I1218 08:51:00.483292 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_stem_1/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer max_pooling2d_4
+I1218 08:51:00.505885 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer max_pooling2d_4
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/path1_conv
+I1218 08:51:00.511120 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/path1_conv
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/path2_conv
+I1218 08:51:00.533892 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/path2_conv
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/final_path_bn
+I1218 08:51:00.553286 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/final_path_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/1x1
+I1218 08:51:00.576662 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/beginning_bn
+I1218 08:51:00.594983 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/beginning_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_0/left/separable_5x5_1
+I1218 08:51:00.619544 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_0/left/bn_sep_5x5_1
+I1218 08:51:00.642483 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_0/left/separable_5x5_2
+I1218 08:51:00.665642 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_0/left/bn_sep_5x5_2
+I1218 08:51:00.688792 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_0/right/separable_3x3_1
+I1218 08:51:00.711673 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_0/right/bn_sep_3x3_1
+I1218 08:51:00.734890 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_0/right/separable_3x3_2
+I1218 08:51:00.758003 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_0/right/bn_sep_3x3_2
+I1218 08:51:00.781145 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_1/left/separable_5x5_1
+I1218 08:51:00.804743 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_1/left/bn_sep_5x5_1
+I1218 08:51:00.827952 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_1/left/separable_5x5_2
+I1218 08:51:00.851410 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_1/left/bn_sep_5x5_2
+I1218 08:51:00.874594 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_1/right/separable_3x3_1
+I1218 08:51:00.897429 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_1/right/bn_sep_3x3_1
+I1218 08:51:00.920444 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_1/right/separable_3x3_2
+I1218 08:51:00.943889 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_1/right/bn_sep_3x3_2
+I1218 08:51:00.967061 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_5
+I1218 08:51:00.990088 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_5
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_6
+I1218 08:51:00.992487 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_6
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_7
+I1218 08:51:00.993952 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_7
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_4/left/separable_3x3_1
+I1218 08:51:00.996901 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_4/left/bn_sep_3x3_1
+I1218 08:51:01.019895 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_4/left/separable_3x3_2
+I1218 08:51:01.042695 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_4/left/bn_sep_3x3_2
+I1218 08:51:01.066174 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_0/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/prev_1x1
+I1218 08:51:01.091837 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/prev_1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/prev_bn
+I1218 08:51:01.109718 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/prev_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/1x1
+I1218 08:51:01.132258 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/beginning_bn
+I1218 08:51:01.150137 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/beginning_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_0/left/separable_5x5_1
+I1218 08:51:01.175188 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_0/left/bn_sep_5x5_1
+I1218 08:51:01.198245 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_0/left/separable_5x5_2
+I1218 08:51:01.221162 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_0/left/bn_sep_5x5_2
+I1218 08:51:01.244276 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_0/right/separable_3x3_1
+I1218 08:51:01.267617 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_0/right/bn_sep_3x3_1
+I1218 08:51:01.290697 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_0/right/separable_3x3_2
+I1218 08:51:01.313802 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_0/right/bn_sep_3x3_2
+I1218 08:51:01.336922 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_1/left/separable_5x5_1
+I1218 08:51:01.361154 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_1/left/bn_sep_5x5_1
+I1218 08:51:01.384209 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_1/left/separable_5x5_2
+I1218 08:51:01.407077 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_1/left/bn_sep_5x5_2
+I1218 08:51:01.430355 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_1/right/separable_3x3_1
+I1218 08:51:01.453203 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_1/right/bn_sep_3x3_1
+I1218 08:51:01.539541 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_1/right/separable_3x3_2
+I1218 08:51:01.562825 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_1/right/bn_sep_3x3_2
+I1218 08:51:01.586803 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_8
+I1218 08:51:01.610152 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_8
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_9
+I1218 08:51:01.612715 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_9
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_10
+I1218 08:51:01.614197 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_10
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_4/left/separable_3x3_1
+I1218 08:51:01.617158 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_4/left/bn_sep_3x3_1
+I1218 08:51:01.640668 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_4/left/separable_3x3_2
+I1218 08:51:01.663406 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_4/left/bn_sep_3x3_2
+I1218 08:51:01.686593 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_1/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/prev_1x1
+I1218 08:51:01.712172 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/prev_1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/prev_bn
+I1218 08:51:01.730313 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/prev_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/1x1
+I1218 08:51:01.753319 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/beginning_bn
+I1218 08:51:01.771104 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/beginning_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_0/left/separable_5x5_1
+I1218 08:51:01.795618 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_0/left/bn_sep_5x5_1
+I1218 08:51:01.818673 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_0/left/separable_5x5_2
+I1218 08:51:01.841890 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_0/left/bn_sep_5x5_2
+I1218 08:51:01.865050 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_0/right/separable_3x3_1
+I1218 08:51:01.887972 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_0/right/bn_sep_3x3_1
+I1218 08:51:01.911259 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_0/right/separable_3x3_2
+I1218 08:51:01.934087 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_0/right/bn_sep_3x3_2
+I1218 08:51:01.958427 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_1/left/separable_5x5_1
+I1218 08:51:01.982184 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_1/left/bn_sep_5x5_1
+I1218 08:51:02.005292 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_1/left/separable_5x5_2
+I1218 08:51:02.028088 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_1/left/bn_sep_5x5_2
+I1218 08:51:02.051630 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_1/right/separable_3x3_1
+I1218 08:51:02.075065 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_1/right/bn_sep_3x3_1
+I1218 08:51:02.098281 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_1/right/separable_3x3_2
+I1218 08:51:02.121178 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_1/right/bn_sep_3x3_2
+I1218 08:51:02.144761 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_11
+I1218 08:51:02.167863 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_11
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_12
+I1218 08:51:02.170366 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_12
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_13
+I1218 08:51:02.171882 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_13
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_4/left/separable_3x3_1
+I1218 08:51:02.174898 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_4/left/bn_sep_3x3_1
+I1218 08:51:02.198122 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_4/left/separable_3x3_2
+I1218 08:51:02.220862 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_4/left/bn_sep_3x3_2
+I1218 08:51:02.244126 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_2/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/prev_1x1
+I1218 08:51:02.270175 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/prev_1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/prev_bn
+I1218 08:51:02.288089 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/prev_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/1x1
+I1218 08:51:02.316322 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/beginning_bn
+I1218 08:51:02.335077 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/beginning_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_0/left/separable_5x5_1
+I1218 08:51:02.359899 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_0/left/bn_sep_5x5_1
+I1218 08:51:02.383917 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_0/left/separable_5x5_2
+I1218 08:51:02.406857 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_0/left/bn_sep_5x5_2
+I1218 08:51:02.430054 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_0/right/separable_3x3_1
+I1218 08:51:02.453084 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_0/right/bn_sep_3x3_1
+I1218 08:51:02.476998 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_0/right/separable_3x3_2
+I1218 08:51:02.500294 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_0/right/bn_sep_3x3_2
+I1218 08:51:02.523883 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_1/left/separable_5x5_1
+I1218 08:51:02.547781 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_1/left/bn_sep_5x5_1
+I1218 08:51:02.571800 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_1/left/separable_5x5_2
+I1218 08:51:02.595041 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_1/left/bn_sep_5x5_2
+I1218 08:51:02.618557 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_1/right/separable_3x3_1
+I1218 08:51:02.641755 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_1/right/bn_sep_3x3_1
+I1218 08:51:02.665117 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_1/right/separable_3x3_2
+I1218 08:51:02.786241 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_1/right/bn_sep_3x3_2
+I1218 08:51:02.809962 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_14
+I1218 08:51:02.833264 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_14
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_15
+I1218 08:51:02.835843 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_15
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_16
+I1218 08:51:02.837395 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_16
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_4/left/separable_3x3_1
+I1218 08:51:02.840457 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_4/left/bn_sep_3x3_1
+I1218 08:51:02.863837 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_4/left/separable_3x3_2
+I1218 08:51:02.887409 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_4/left/bn_sep_3x3_2
+I1218 08:51:02.910873 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_3/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/prev_1x1
+I1218 08:51:02.936487 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/prev_1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/prev_bn
+I1218 08:51:02.954639 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/prev_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/1x1
+I1218 08:51:02.977545 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/beginning_bn
+I1218 08:51:02.995894 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/beginning_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_0/left/separable_5x5_1
+I1218 08:51:03.020800 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_0/left/bn_sep_5x5_1
+I1218 08:51:03.044080 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_0/left/separable_5x5_2
+I1218 08:51:03.067141 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_0/left/bn_sep_5x5_2
+I1218 08:51:03.091464 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_0/right/separable_7x7_1
+I1218 08:51:03.114830 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_0/right/separable_7x7_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_0/right/bn_sep_7x7_1
+I1218 08:51:03.138185 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_0/right/bn_sep_7x7_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_0/right/separable_7x7_2
+I1218 08:51:03.161206 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_0/right/separable_7x7_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_0/right/bn_sep_7x7_2
+I1218 08:51:03.185022 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_0/right/bn_sep_7x7_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer max_pooling2d_5
+I1218 08:51:03.208445 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer max_pooling2d_5
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_1/right/separable_7x7_1
+I1218 08:51:03.210732 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_1/right/separable_7x7_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_1/right/bn_sep_7x7_1
+I1218 08:51:03.234069 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_1/right/bn_sep_7x7_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_1/right/separable_7x7_2
+I1218 08:51:03.257256 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_1/right/separable_7x7_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_1/right/bn_sep_7x7_2
+I1218 08:51:03.280730 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_1/right/bn_sep_7x7_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_17
+I1218 08:51:03.304647 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_17
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_2/right/separable_5x5_1
+I1218 08:51:03.306880 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_2/right/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_2/right/bn_sep_5x5_1
+I1218 08:51:03.330309 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_2/right/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_2/right/separable_5x5_2
+I1218 08:51:03.353218 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_2/right/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_2/right/bn_sep_5x5_2
+I1218 08:51:03.376777 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_2/right/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_18
+I1218 08:51:03.400812 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_18
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_4/left/separable_3x3_1
+I1218 08:51:03.403930 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_4/left/bn_sep_3x3_1
+I1218 08:51:03.427316 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_4/left/separable_3x3_2
+I1218 08:51:03.450366 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_4/left/bn_sep_3x3_2
+I1218 08:51:03.473891 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_0/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer max_pooling2d_6
+I1218 08:51:03.497009 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer max_pooling2d_6
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/path1_conv
+I1218 08:51:03.502599 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/path1_conv
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/path2_conv
+I1218 08:51:03.525599 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/path2_conv
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/final_path_bn
+I1218 08:51:03.544874 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/final_path_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/1x1
+I1218 08:51:03.568019 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/beginning_bn
+I1218 08:51:03.586781 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/beginning_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_0/left/separable_5x5_1
+I1218 08:51:03.613304 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_0/left/bn_sep_5x5_1
+I1218 08:51:03.637068 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_0/left/separable_5x5_2
+I1218 08:51:03.660095 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_0/left/bn_sep_5x5_2
+I1218 08:51:03.683534 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_0/right/separable_3x3_1
+I1218 08:51:03.707230 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_0/right/bn_sep_3x3_1
+I1218 08:51:03.730842 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_0/right/separable_3x3_2
+I1218 08:51:03.753995 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_0/right/bn_sep_3x3_2
+I1218 08:51:03.777435 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_1/left/separable_5x5_1
+I1218 08:51:03.802190 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_1/left/bn_sep_5x5_1
+I1218 08:51:03.826366 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_1/left/separable_5x5_2
+I1218 08:51:03.849835 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_1/left/bn_sep_5x5_2
+I1218 08:51:03.873154 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_1/right/separable_3x3_1
+I1218 08:51:03.896216 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_1/right/bn_sep_3x3_1
+I1218 08:51:03.920201 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_1/right/separable_3x3_2
+I1218 08:51:03.943422 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_1/right/bn_sep_3x3_2
+I1218 08:51:03.967131 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_19
+I1218 08:51:03.990664 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_19
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_20
+I1218 08:51:03.993313 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_20
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_21
+I1218 08:51:03.994900 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_21
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_4/left/separable_3x3_1
+I1218 08:51:03.998026 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_4/left/bn_sep_3x3_1
+I1218 08:51:04.022790 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_4/left/separable_3x3_2
+I1218 08:51:04.134897 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_4/left/bn_sep_3x3_2
+I1218 08:51:04.158736 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_4/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/prev_1x1
+I1218 08:51:04.184765 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/prev_1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/prev_bn
+I1218 08:51:04.203021 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/prev_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/1x1
+I1218 08:51:04.226310 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/beginning_bn
+I1218 08:51:04.244590 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/beginning_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_0/left/separable_5x5_1
+I1218 08:51:04.269732 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_0/left/bn_sep_5x5_1
+I1218 08:51:04.293207 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_0/left/separable_5x5_2
+I1218 08:51:04.316306 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_0/left/bn_sep_5x5_2
+I1218 08:51:04.340255 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_0/right/separable_3x3_1
+I1218 08:51:04.363403 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_0/right/bn_sep_3x3_1
+I1218 08:51:04.386911 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_0/right/separable_3x3_2
+I1218 08:51:04.410001 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_0/right/bn_sep_3x3_2
+I1218 08:51:04.434379 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_1/left/separable_5x5_1
+I1218 08:51:04.458553 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_1/left/bn_sep_5x5_1
+I1218 08:51:04.481971 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_1/left/separable_5x5_2
+I1218 08:51:04.505043 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_1/left/bn_sep_5x5_2
+I1218 08:51:04.529489 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_1/right/separable_3x3_1
+I1218 08:51:04.553027 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_1/right/bn_sep_3x3_1
+I1218 08:51:04.577113 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_1/right/separable_3x3_2
+I1218 08:51:04.600369 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_1/right/bn_sep_3x3_2
+I1218 08:51:04.624340 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_22
+I1218 08:51:04.648633 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_22
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_23
+I1218 08:51:04.651364 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_23
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_24
+I1218 08:51:04.652965 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_24
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_4/left/separable_3x3_1
+I1218 08:51:04.656328 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_4/left/bn_sep_3x3_1
+I1218 08:51:04.680529 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_4/left/separable_3x3_2
+I1218 08:51:04.703620 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_4/left/bn_sep_3x3_2
+I1218 08:51:04.729594 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_5/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/prev_1x1
+I1218 08:51:04.758149 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/prev_1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/prev_bn
+I1218 08:51:04.778291 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/prev_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/1x1
+I1218 08:51:04.801120 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/beginning_bn
+I1218 08:51:04.819367 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/beginning_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_0/left/separable_5x5_1
+I1218 08:51:04.844257 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_0/left/bn_sep_5x5_1
+I1218 08:51:04.868160 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_0/left/separable_5x5_2
+I1218 08:51:04.891362 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_0/left/bn_sep_5x5_2
+I1218 08:51:04.914841 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_0/right/separable_3x3_1
+I1218 08:51:04.937953 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_0/right/bn_sep_3x3_1
+I1218 08:51:04.961909 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_0/right/separable_3x3_2
+I1218 08:51:04.985058 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_0/right/bn_sep_3x3_2
+I1218 08:51:05.008731 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_1/left/separable_5x5_1
+I1218 08:51:05.032889 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_1/left/bn_sep_5x5_1
+I1218 08:51:05.056397 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_1/left/separable_5x5_2
+I1218 08:51:05.080326 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_1/left/bn_sep_5x5_2
+I1218 08:51:05.103877 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_1/right/separable_3x3_1
+I1218 08:51:05.127287 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_1/right/bn_sep_3x3_1
+I1218 08:51:05.150897 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_1/right/separable_3x3_2
+I1218 08:51:05.174603 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_1/right/bn_sep_3x3_2
+I1218 08:51:05.198190 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_25
+I1218 08:51:05.221793 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_25
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_26
+I1218 08:51:05.224653 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_26
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_27
+I1218 08:51:05.226284 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_27
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_4/left/separable_3x3_1
+I1218 08:51:05.229491 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_4/left/bn_sep_3x3_1
+I1218 08:51:05.252937 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_4/left/separable_3x3_2
+I1218 08:51:05.276494 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_4/left/bn_sep_3x3_2
+I1218 08:51:05.299971 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_6/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/prev_1x1
+I1218 08:51:05.326121 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/prev_1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/prev_bn
+I1218 08:51:05.344435 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/prev_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/1x1
+I1218 08:51:05.367506 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/beginning_bn
+I1218 08:51:05.386108 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/beginning_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_0/left/separable_5x5_1
+I1218 08:51:05.411092 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_0/left/bn_sep_5x5_1
+I1218 08:51:05.434652 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_0/left/separable_5x5_2
+I1218 08:51:05.457724 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_0/left/bn_sep_5x5_2
+I1218 08:51:05.481868 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_0/right/separable_3x3_1
+I1218 08:51:05.505236 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_0/right/bn_sep_3x3_1
+I1218 08:51:05.529416 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_0/right/separable_3x3_2
+I1218 08:51:05.552770 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_0/right/bn_sep_3x3_2
+I1218 08:51:05.576700 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_1/left/separable_5x5_1
+I1218 08:51:05.601438 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_1/left/bn_sep_5x5_1
+I1218 08:51:05.624990 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_1/left/separable_5x5_2
+I1218 08:51:05.648115 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_1/left/bn_sep_5x5_2
+I1218 08:51:05.671608 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_1/right/separable_3x3_1
+I1218 08:51:05.695607 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_1/right/bn_sep_3x3_1
+I1218 08:51:05.824282 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_1/right/separable_3x3_2
+I1218 08:51:05.847771 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_1/right/bn_sep_3x3_2
+I1218 08:51:05.871420 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_28
+I1218 08:51:05.895270 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_28
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_29
+I1218 08:51:05.898111 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_29
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_30
+I1218 08:51:05.899769 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_30
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_4/left/separable_3x3_1
+I1218 08:51:05.902991 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_4/left/bn_sep_3x3_1
+I1218 08:51:05.926949 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_4/left/separable_3x3_2
+I1218 08:51:05.950178 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_4/left/bn_sep_3x3_2
+I1218 08:51:05.974272 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_7/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/prev_1x1
+I1218 08:51:06.000391 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/prev_1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/prev_bn
+I1218 08:51:06.019250 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/prev_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/1x1
+I1218 08:51:06.042293 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/beginning_bn
+I1218 08:51:06.060414 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/beginning_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_0/left/separable_5x5_1
+I1218 08:51:06.085579 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_0/left/bn_sep_5x5_1
+I1218 08:51:06.109208 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_0/left/separable_5x5_2
+I1218 08:51:06.132948 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_0/left/bn_sep_5x5_2
+I1218 08:51:06.156564 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_0/right/separable_7x7_1
+I1218 08:51:06.180134 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_0/right/separable_7x7_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_0/right/bn_sep_7x7_1
+I1218 08:51:06.203804 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_0/right/bn_sep_7x7_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_0/right/separable_7x7_2
+I1218 08:51:06.227551 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_0/right/separable_7x7_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_0/right/bn_sep_7x7_2
+I1218 08:51:06.251171 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_0/right/bn_sep_7x7_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer max_pooling2d_7
+I1218 08:51:06.274880 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer max_pooling2d_7
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_1/right/separable_7x7_1
+I1218 08:51:06.277221 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_1/right/separable_7x7_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_1/right/bn_sep_7x7_1
+I1218 08:51:06.300743 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_1/right/bn_sep_7x7_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_1/right/separable_7x7_2
+I1218 08:51:06.324464 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_1/right/separable_7x7_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_1/right/bn_sep_7x7_2
+I1218 08:51:06.348175 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_1/right/bn_sep_7x7_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_31
+I1218 08:51:06.372097 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_31
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_2/right/separable_5x5_1
+I1218 08:51:06.374404 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_2/right/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_2/right/bn_sep_5x5_1
+I1218 08:51:06.405099 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_2/right/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_2/right/separable_5x5_2
+I1218 08:51:06.429753 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_2/right/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_2/right/bn_sep_5x5_2
+I1218 08:51:06.453432 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_2/right/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_32
+I1218 08:51:06.478949 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_32
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_4/left/separable_3x3_1
+I1218 08:51:06.482905 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_4/left/bn_sep_3x3_1
+I1218 08:51:06.510790 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_4/left/separable_3x3_2
+I1218 08:51:06.538381 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_4/left/bn_sep_3x3_2
+I1218 08:51:06.566974 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/reduction_cell_1/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer max_pooling2d_8
+I1218 08:51:06.593958 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer max_pooling2d_8
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/path1_conv
+I1218 08:51:06.600916 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/path1_conv
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/path2_conv
+I1218 08:51:06.628249 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/path2_conv
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/final_path_bn
+I1218 08:51:06.650344 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/final_path_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/1x1
+I1218 08:51:06.677178 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/beginning_bn
+I1218 08:51:06.697838 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/beginning_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_0/left/separable_5x5_1
+I1218 08:51:06.726132 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_0/left/bn_sep_5x5_1
+I1218 08:51:06.752244 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_0/left/separable_5x5_2
+I1218 08:51:06.777925 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_0/left/bn_sep_5x5_2
+I1218 08:51:06.804692 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_0/right/separable_3x3_1
+I1218 08:51:06.830631 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_0/right/bn_sep_3x3_1
+I1218 08:51:06.856986 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_0/right/separable_3x3_2
+I1218 08:51:06.882784 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_0/right/bn_sep_3x3_2
+I1218 08:51:06.909634 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_1/left/separable_5x5_1
+I1218 08:51:06.936738 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_1/left/bn_sep_5x5_1
+I1218 08:51:06.962872 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_1/left/separable_5x5_2
+I1218 08:51:06.987890 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_1/left/bn_sep_5x5_2
+I1218 08:51:07.014188 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_1/right/separable_3x3_1
+I1218 08:51:07.039445 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_1/right/bn_sep_3x3_1
+I1218 08:51:07.065464 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_1/right/separable_3x3_2
+I1218 08:51:07.090749 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_1/right/bn_sep_3x3_2
+I1218 08:51:07.116159 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_33
+I1218 08:51:07.142220 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_33
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_34
+I1218 08:51:07.145359 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_34
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_35
+I1218 08:51:07.147231 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_35
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_4/left/separable_3x3_1
+I1218 08:51:07.150993 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_4/left/bn_sep_3x3_1
+I1218 08:51:07.176602 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_4/left/separable_3x3_2
+I1218 08:51:07.201628 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_4/left/bn_sep_3x3_2
+I1218 08:51:07.227247 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_8/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/prev_1x1
+I1218 08:51:07.256222 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/prev_1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/prev_bn
+I1218 08:51:07.276032 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/prev_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/1x1
+I1218 08:51:07.300859 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/beginning_bn
+I1218 08:51:07.320658 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/beginning_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_0/left/separable_5x5_1
+I1218 08:51:07.347706 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_0/left/bn_sep_5x5_1
+I1218 08:51:07.373946 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_0/left/separable_5x5_2
+I1218 08:51:07.399007 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_0/left/bn_sep_5x5_2
+I1218 08:51:07.424142 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_0/right/separable_3x3_1
+I1218 08:51:07.448865 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_0/right/bn_sep_3x3_1
+I1218 08:51:07.474575 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_0/right/separable_3x3_2
+I1218 08:51:07.499001 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_0/right/bn_sep_3x3_2
+I1218 08:51:07.524516 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_1/left/separable_5x5_1
+I1218 08:51:07.550674 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_1/left/bn_sep_5x5_1
+I1218 08:51:07.575903 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_1/left/separable_5x5_2
+I1218 08:51:07.601554 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_1/left/bn_sep_5x5_2
+I1218 08:51:07.627242 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_1/right/separable_3x3_1
+I1218 08:51:07.652575 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_1/right/bn_sep_3x3_1
+I1218 08:51:07.678277 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_1/right/separable_3x3_2
+I1218 08:51:07.703833 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_1/right/bn_sep_3x3_2
+I1218 08:51:07.729881 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_36
+I1218 08:51:07.755860 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_36
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_37
+I1218 08:51:07.759127 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_37
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_38
+I1218 08:51:07.760994 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_38
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_4/left/separable_3x3_1
+I1218 08:51:07.764592 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_4/left/bn_sep_3x3_1
+I1218 08:51:07.790293 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_4/left/separable_3x3_2
+I1218 08:51:07.815850 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_4/left/bn_sep_3x3_2
+I1218 08:51:08.000112 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_9/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/prev_1x1
+I1218 08:51:08.028865 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/prev_1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/prev_bn
+I1218 08:51:08.048965 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/prev_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/1x1
+I1218 08:51:08.073963 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/beginning_bn
+I1218 08:51:08.093675 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/beginning_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_0/left/separable_5x5_1
+I1218 08:51:08.121387 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_0/left/bn_sep_5x5_1
+I1218 08:51:08.147303 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_0/left/separable_5x5_2
+I1218 08:51:08.172493 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_0/left/bn_sep_5x5_2
+I1218 08:51:08.198296 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_0/right/separable_3x3_1
+I1218 08:51:08.224114 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_0/right/bn_sep_3x3_1
+I1218 08:51:08.249891 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_0/right/separable_3x3_2
+I1218 08:51:08.275128 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_0/right/bn_sep_3x3_2
+I1218 08:51:08.300725 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_1/left/separable_5x5_1
+I1218 08:51:08.327602 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_1/left/bn_sep_5x5_1
+I1218 08:51:08.353177 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_1/left/separable_5x5_2
+I1218 08:51:08.378196 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_1/left/bn_sep_5x5_2
+I1218 08:51:08.403847 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_1/right/separable_3x3_1
+I1218 08:51:08.429356 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_1/right/bn_sep_3x3_1
+I1218 08:51:08.456434 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_1/right/separable_3x3_2
+I1218 08:51:08.481695 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_1/right/bn_sep_3x3_2
+I1218 08:51:08.507389 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_39
+I1218 08:51:08.533201 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_39
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_40
+I1218 08:51:08.536494 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_40
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_41
+I1218 08:51:08.538486 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_41
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_4/left/separable_3x3_1
+I1218 08:51:08.542113 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_4/left/bn_sep_3x3_1
+I1218 08:51:08.568234 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_4/left/separable_3x3_2
+I1218 08:51:08.594019 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_4/left/bn_sep_3x3_2
+I1218 08:51:08.620448 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_10/comb_iter_4/left/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/prev_1x1
+I1218 08:51:08.649071 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/prev_1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/prev_bn
+I1218 08:51:08.669524 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/prev_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/1x1
+I1218 08:51:08.694464 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/1x1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/beginning_bn
+I1218 08:51:08.714298 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/beginning_bn
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_0/left/separable_5x5_1
+I1218 08:51:08.741415 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_0/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_0/left/bn_sep_5x5_1
+I1218 08:51:08.767266 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_0/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_0/left/separable_5x5_2
+I1218 08:51:08.793070 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_0/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_0/left/bn_sep_5x5_2
+I1218 08:51:08.819422 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_0/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_0/right/separable_3x3_1
+I1218 08:51:08.845314 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_0/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_0/right/bn_sep_3x3_1
+I1218 08:51:08.871637 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_0/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_0/right/separable_3x3_2
+I1218 08:51:08.897950 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_0/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_0/right/bn_sep_3x3_2
+I1218 08:51:08.924111 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_0/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_1/left/separable_5x5_1
+I1218 08:51:08.951113 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_1/left/separable_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_1/left/bn_sep_5x5_1
+I1218 08:51:08.977400 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_1/left/bn_sep_5x5_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_1/left/separable_5x5_2
+I1218 08:51:09.003062 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_1/left/separable_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_1/left/bn_sep_5x5_2
+I1218 08:51:09.029869 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_1/left/bn_sep_5x5_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_1/right/separable_3x3_1
+I1218 08:51:09.055713 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_1/right/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_1/right/bn_sep_3x3_1
+I1218 08:51:09.081924 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_1/right/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_1/right/separable_3x3_2
+I1218 08:51:09.107076 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_1/right/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_1/right/bn_sep_3x3_2
+I1218 08:51:09.133196 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_1/right/bn_sep_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_42
+I1218 08:51:09.159047 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_42
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_43
+I1218 08:51:09.162379 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_43
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer average_pooling2d_44
+I1218 08:51:09.164329 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer average_pooling2d_44
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_4/left/separable_3x3_1
+I1218 08:51:09.168022 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_4/left/separable_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_4/left/bn_sep_3x3_1
+I1218 08:51:09.193752 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_4/left/bn_sep_3x3_1
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_4/left/separable_3x3_2
+I1218 08:51:09.218865 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_4/left/separable_3x3_2
+INFO:tensorflow:(<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_4/left/bn_sep_3x3_2
+I1218 08:51:09.245169 139901333611840 base_layer.py:698] (<dtype: 'posit161'>) is being used at layer v/cg/cell_11/comb_iter_4/left/bn_sep_3x3_2
+WARNING:tensorflow:From /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1801: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+W1218 08:51:28.186720 139901333611840 deprecation.py:305] From /home/scott/repo/Tensorflow/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1801: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+INFO:tensorflow:Running local_init_op.
+I1218 08:51:42.832001 139901333611840 session_manager.py:498] Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+I1218 08:51:43.413449 139901333611840 session_manager.py:500] Done running local_init_op.
+2018-12-18 08:51:49.186261: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:49.186986: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:49.187712: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:49.188450: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:49.189929: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:49.190625: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:49.191338: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:49.192092: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:49.193550: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:49.194281: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:49.195001: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:49.195722: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:52.651697: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:52.652463: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:52.653129: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:52.653822: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:52.655224: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:52.655904: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:52.656581: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:52.657251: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:52.658648: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:52.659342: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:52.660031: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+2018-12-18 08:51:52.660702: W ./tensorflow/core/grappler/optimizers/graph_optimizer_stage.h:241] Failed to run optimizer ArithmeticOptimizer, stage SimplifyAggregation. Error: Failed to create const node: Unsupported type posit161
+SINGLE THREADED BENCHMARK BEING RUN - BENCHMARK_CNN.PY LINE 615
+TensorFlow:  1.12
+Model:       nasnet
+Dataset:     imagenet (synthetic)
+Mode:        training
+SingleSess:  False
+Batch size:  5 global
+             5.0 per device
+Num batches: 100
+Num epochs:  0.00
+Devices:     ['/cpu:0']
+Data format: NHWC
+Layout optimizer: False
+Optimizer:   rmsprop
+Variables:   parameter_server
+==========
+Generating model
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+is dilation set?(nn_ops.py 864) :False
+Using posit convolution function
+Saving graph to: tensorboard_out/alexnet/alex
+SINGLE THREADED BENCHMARK BEING RUN - BENCHMARK_CNN.PY LINE 615
+Running warm up
+Done warm up
+Step	Img/sec	total_loss
+1	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2688.000
+10	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2688.000
+20	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2688.000
+30	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2688.000
+40	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2736.000
+50	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2736.000
+60	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2704.000
+70	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2704.000
+80	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2704.000
+90	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2704.000
+100	images/sec: 0.0 +/- 0.0 (jitter = 0.0)	2704.000
+----------------------------------------------------------------
+total images/sec: 0.01
+----------------------------------------------------------------
